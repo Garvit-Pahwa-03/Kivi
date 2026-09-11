@@ -102,6 +102,21 @@ records.append(mk_record(
     pref_late_ts, {"is_preference_statement": True},
 ))
 
+# ---------- Team roster statements (8) — ensures role facts are actually in the corpus ----------
+ROSTER_TEMPLATES = [
+    "Quick context note: {name} is our {role} on the {company} team.",
+    "For anyone new joining: {name} is the {role} here at {company}.",
+]
+
+for name_entry in TEAMMATES:
+    template = RNG.choice(ROSTER_TEMPLATES)
+    text = template.format(name=name_entry["name"], role=name_entry["role"], company=COMPANY)
+    ts = random_timestamp(days_ago_min=30, days_ago_max=44)
+    records.append(mk_record(next_id("note"), "Notes", text, ts))
+    # one reinforcement each, closer to present
+    ts2 = random_timestamp(days_ago_min=3, days_ago_max=15)
+    records.append(mk_record(next_id("note"), "Notes", text, ts2))
+
 # ---------- 2. Google Docs drafts (120) ----------
 DOC_TEMPLATES = [
     "Draft section for {proj} ({acr}): the goal of this phase is to reduce onboarding drop-off by "

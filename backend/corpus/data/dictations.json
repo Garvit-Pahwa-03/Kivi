@@ -3,7 +3,7 @@
   "company": "Loopwork",
   "records": [
     {
-      "record_id": "note-0501",
+      "record_id": "note-0504",
       "app": "Notes",
       "raw_asr": "idea: maybe divya nair should present project falcon progress at the next all-hands",
       "llm_formatted": "Idea: maybe Divya Nair should present Project Falcon progress at the next all-hands.",
@@ -35,6 +35,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0362",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the northwind traders call: divya like nair like to send the project falcon rollout you know plan by friday",
+      "llm_formatted": "Follow-up email after the Northwind Traders call: Divya Nair to send the Project Falcon rollout plan by Friday.",
+      "timestamp": "2026-07-28T11:28:00.425521+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0077",
       "app": "Slack",
       "raw_asr": "wrapped up the project falcon spec review ananya rao raised a concern about the timeline for growth pod like",
@@ -43,7 +51,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0490",
+      "record_id": "note-0493",
       "app": "Notes",
       "raw_asr": "note to self: ask vikram shah about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
@@ -51,15 +59,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0420",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: vikram shah like to send so the project comet rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Comet rollout plan by Friday.",
-      "timestamp": "2026-07-28T15:01:00.274915+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0372",
+      "record_id": "mail-0377",
       "app": "Outlook",
       "raw_asr": "email to rahul iyer: confirming our sync about project falcon is moved to thursday at 3 pm please loop in platform pod before then",
       "llm_formatted": "Email to Rahul Iyer: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -75,14 +75,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0453",
-      "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the um project comet budget before friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Comet budget before Friday.",
-      "timestamp": "2026-07-28T18:31:00.841539+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0061",
       "app": "Slack",
       "raw_asr": "heads up rahul iyer and i are syncing on project falcon tomorrow morning about the meridian retail um rollout",
@@ -91,15 +83,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0505",
+      "record_id": "note-0513",
       "app": "Notes",
-      "raw_asr": "quick reminder: parking validation code for today's like office so visit is 7734",
+      "raw_asr": "quick reminder: parking validation code for today's office visit is 7734",
       "llm_formatted": "Quick reminder: parking validation code for today's office visit is 7734.",
-      "timestamp": "2026-07-29T06:10:04+00:00",
+      "timestamp": "2026-07-29T06:40:26+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0414",
+      "record_id": "mail-0419",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: vikram shah to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Vikram Shah to send the Project Falcon rollout plan by Friday.",
@@ -107,11 +99,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0375",
+      "record_id": "mail-0380",
       "app": "Outlook",
       "raw_asr": "follow-up basically email after the meridian retail call: ananya rao to send the project comet rollout plan uh by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Comet rollout plan by Friday.",
       "timestamp": "2026-07-29T08:47:00.985721+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0372",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail basically call: vikram shah to send the like project uh comet rollout you know plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-07-29T09:50:00.289092+00:00",
       "extra_metadata": {}
     },
     {
@@ -123,7 +123,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0499",
+      "record_id": "note-0479",
+      "app": "Notes",
+      "raw_asr": "reminder: platform pod retro moved to next monday because of project um falcon",
+      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-07-29T12:18:00.485064+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0502",
       "app": "Notes",
       "raw_asr": "note to self: ask so divya nair about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
@@ -139,15 +147,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0450",
-      "app": "Notes",
-      "raw_asr": "reminder: growth pod retro moved to next monday because of project comet",
-      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-07-29T13:58:00.320140+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0410",
+      "record_id": "mail-0415",
       "app": "Outlook",
       "raw_asr": "email to vikram shah: confirming our sync about project falcon so is moved to thursday at 3 pm please loop uh in growth pod before so then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -163,15 +163,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0227",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with divya nair decided to push the northwind traders pilot by one week to fix like the edge cases platform pod um found",
-      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Divya Nair, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
-      "timestamp": "2026-07-29T14:46:00.702591+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0261",
+      "record_id": "doc-0266",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has basically asked like for a configurable dashboard rahul iyer estimates two sprints platform uh pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
@@ -179,7 +171,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0487",
+      "record_id": "mail-0425",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: vikram shah like to send so the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-07-29T15:01:00.274915+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0490",
       "app": "Notes",
       "raw_asr": "idea: maybe rahul iyer should uh present project comet basically progress at the next all-hands",
       "llm_formatted": "Idea: maybe Rahul Iyer should present Project Comet progress at the next all-hands.",
@@ -187,7 +187,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0391",
+      "record_id": "mail-0396",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet rahul iyer will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Rahul Iyer will be the point of contact on our side going forward.",
@@ -195,15 +195,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0367",
-      "app": "Outlook",
-      "raw_asr": "email to vikram shah: confirming our sync about project comet is like moved uh to thursday you know at 3 pm please loop in platform pod before like then",
-      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-07-29T16:48:00.233212+00:00",
+      "record_id": "note-0451",
+      "app": "Notes",
+      "raw_asr": "idea: maybe ananya rao should present project falcon progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Ananya Rao should present Project Falcon progress at the next all-hands.",
+      "timestamp": "2026-07-29T16:56:00.697705+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0243",
+      "record_id": "doc-0248",
       "app": "Google Docs",
       "raw_asr": "prd note for so project falcon (prj-flc): meridian retail has asked for a configurable so dashboard rahul iyer estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
@@ -219,7 +219,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0337",
+      "record_id": "doc-0342",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon like (prj-flc): the goal of you know this phase uh is to so reduce onboarding drop-off by redesigning like the signup flow with rahul iyer owning the design basically system updates and platform pod owning um rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Platform Pod owning rollout.",
@@ -227,7 +227,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0397",
+      "record_id": "mail-0402",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point of contact on um our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -235,19 +235,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0242",
-      "app": "Google Docs",
-      "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase like is to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system so updates and growth pod owning rollout",
-      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-07-30T12:18:00.553699+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0338",
+      "record_id": "doc-0343",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase like is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates um and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
       "timestamp": "2026-07-30T15:47:00.128302+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0460",
+      "app": "Notes",
+      "raw_asr": "idea: maybe divya nair should present project comet progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Divya Nair should present Project Comet progress at the next all-hands.",
+      "timestamp": "2026-07-30T17:48:00.384954+00:00",
       "extra_metadata": {}
     },
     {
@@ -259,7 +259,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0418",
+      "record_id": "mail-0423",
       "app": "Outlook",
       "raw_asr": "email to rahul iyer: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
       "llm_formatted": "Email to Rahul Iyer: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -267,7 +267,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0320",
+      "record_id": "doc-0325",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot by one um week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -275,35 +275,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0475",
+      "record_id": "note-0465",
       "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project falcon progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Falcon progress at the next all-hands.",
-      "timestamp": "2026-07-31T09:53:00.498056+00:00",
+      "raw_asr": "reminder: growth pod retro moved to next monday because of project falcon",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-07-31T12:32:00.136018+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0184",
-      "app": "Slack",
-      "raw_asr": "wrapped up the project comet spec review ananya rao raised a concern about the timeline for platform pod",
-      "llm_formatted": "Wrapped up the Project Comet spec review, Ananya Rao raised a concern about the timeline for Platform Pod.",
-      "timestamp": "2026-07-31T13:04:00.074822+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0411",
+      "record_id": "mail-0416",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet ananya rao will uh be the point of contact on basically our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
       "timestamp": "2026-07-31T14:02:00.592535+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0456",
-      "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project falcon progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Falcon progress at the next all-hands.",
-      "timestamp": "2026-07-31T14:28:00.006729+00:00",
       "extra_metadata": {}
     },
     {
@@ -315,7 +299,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0408",
+      "record_id": "mail-0413",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: divya nair to send the um project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Divya Nair to send the Project Falcon rollout plan by Friday.",
@@ -323,23 +307,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0466",
-      "app": "Notes",
-      "raw_asr": "reminder: uh platform pod retro moved to um next monday because of so project comet",
-      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-07-31T16:30:00.190026+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0362",
-      "app": "Outlook",
-      "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-07-31T16:42:00.464102+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0340",
+      "record_id": "doc-0345",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard ananya rao estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -355,7 +323,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0386",
+      "record_id": "mail-0391",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: rahul iyer to send the project falcon rollout plan by you know friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
@@ -363,7 +331,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0438",
+      "record_id": "mail-0443",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: ananya rao to send the project comet um rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Comet rollout plan by Friday.",
@@ -387,27 +355,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0354",
-      "app": "Outlook",
-      "raw_asr": "email to vikram shah: confirming our sync about project comet basically is moved to thursday at 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-07-31T19:46:00.684859+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0120",
       "app": "Slack",
       "raw_asr": "standup note: project comet is at 60 percent ananya rao is helping unblock the growth pod sprint",
       "llm_formatted": "Standup note: Project Comet is at 60 percent, Ananya Rao is helping unblock the Growth Pod sprint.",
       "timestamp": "2026-08-01T08:21:00.063963+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0464",
-      "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project comet uh budget before friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-01T11:04:00.683709+00:00",
       "extra_metadata": {}
     },
     {
@@ -419,7 +371,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0403",
+      "record_id": "mail-0408",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -427,15 +379,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0461",
-      "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project comet budget before friday so",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-01T11:38:00.754812+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0294",
+      "record_id": "doc-0299",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard uh ananya rao estimates um two sprints platform pod basically will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -443,7 +387,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0291",
+      "record_id": "doc-0296",
       "app": "Google Docs",
       "raw_asr": "prd note for uh project comet (prj-cmt): northwind traders has asked for a configurable dashboard rahul iyer estimates two sprints like platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
@@ -451,7 +395,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0485",
+      "record_id": "note-0456",
+      "app": "Notes",
+      "raw_asr": "note to self: ask rahul iyer about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-01T12:59:00.233255+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "slk-0184",
+      "app": "Slack",
+      "raw_asr": "wrapped up the project comet spec review ananya rao raised a concern about the timeline for platform pod",
+      "llm_formatted": "Wrapped up the Project Comet spec review, Ananya Rao raised a concern about the timeline for Platform Pod.",
+      "timestamp": "2026-08-01T13:04:00.074822+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0488",
       "app": "Notes",
       "raw_asr": "note to self: ask vikram shah about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
@@ -467,7 +427,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0412",
+      "record_id": "note-0476",
+      "app": "Notes",
+      "raw_asr": "idea: maybe vikram shah should present project falcon progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Vikram Shah should present Project Falcon progress at the next all-hands.",
+      "timestamp": "2026-08-01T13:10:00.003839+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0468",
+      "app": "Notes",
+      "raw_asr": "idea: maybe divya nair should present project falcon progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Divya Nair should present Project Falcon progress at the next all-hands.",
+      "timestamp": "2026-08-01T14:15:00.812023+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0417",
       "app": "Outlook",
       "raw_asr": "email to rahul iyer: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
       "llm_formatted": "Email to Rahul Iyer: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -475,7 +451,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0407",
+      "record_id": "mail-0412",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: ananya um rao to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Ananya Rao to send the Project Falcon rollout plan by Friday.",
@@ -491,15 +467,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0240",
-      "app": "Google Docs",
-      "raw_asr": "draft section for project um falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow um with ananya rao owning the so design system updates and platform pod owning rollout",
-      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
-      "timestamp": "2026-08-01T18:20:00.564770+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0317",
+      "record_id": "doc-0322",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal you know of this phase is um to reduce onboarding drop-off by redesigning so the signup flow with ananya rao owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -511,13 +479,21 @@
       "app": "Slack",
       "raw_asr": "hey uh kivi from now on format my slack updates as full paragraphs not bullet uh points",
       "llm_formatted": "Hey Kivi, from now on format my Slack updates as full paragraphs, not bullet points.",
-      "timestamp": "2026-08-02T06:10:04+00:00",
+      "timestamp": "2026-08-02T06:40:26+00:00",
       "extra_metadata": {
         "is_preference_statement": true
       }
     },
     {
-      "record_id": "doc-0342",
+      "record_id": "note-0457",
+      "app": "Notes",
+      "raw_asr": "reminder: growth pod retro moved to next monday because of project like falcon",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-02T08:02:00.000288+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0347",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the uh goal so of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao basically owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
@@ -525,7 +501,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0491",
+      "record_id": "note-0494",
       "app": "Notes",
       "raw_asr": "reminder: growth pod retro moved um to next monday uh because like of project comet",
       "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
@@ -549,11 +525,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0234",
+      "record_id": "doc-0246",
       "app": "Google Docs",
-      "raw_asr": "prd note for project so comet (prj-cmt): northwind traders has asked for a configurable dashboard vikram shah estimates two sprints growth pod will need one more engineer",
-      "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
-      "timestamp": "2026-08-02T09:24:00.391185+00:00",
+      "raw_asr": "prd note for project falcon (prj-flc): meridian retail has asked for um a configurable dashboard divya nair estimates two sprints platform pod will need one more engineer",
+      "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
+      "timestamp": "2026-08-02T10:16:00.279722+00:00",
       "extra_metadata": {}
     },
     {
@@ -565,14 +541,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0468",
-      "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present like project so comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-02T12:09:00.797444+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0117",
       "app": "Slack",
       "raw_asr": "standup note: project comet is at 60 percent rahul iyer is helping unblock the platform pod sprint",
@@ -581,7 +549,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0333",
+      "record_id": "doc-0338",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
@@ -589,7 +557,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0273",
+      "record_id": "doc-0278",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with rahul iyer decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Rahul Iyer, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -597,7 +565,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0326",
+      "record_id": "mail-0363",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: divya nair to send the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-08-02T16:51:00.599704+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0331",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a you know configurable dashboard ananya rao estimates two sprints platform pod basically will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -613,6 +589,30 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "note-0227",
+      "app": "Notes",
+      "raw_asr": "quick context note: vikram shah is our backend engineer on the loopwork team",
+      "llm_formatted": "Quick context note: Vikram Shah is our Backend Engineer on the Loopwork team.",
+      "timestamp": "2026-08-03T10:45:00.873959+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0229",
+      "app": "Notes",
+      "raw_asr": "for anyone new joining: divya nair is the growth analyst here at basically loopwork",
+      "llm_formatted": "For anyone new joining: Divya Nair is the Growth Analyst here at Loopwork.",
+      "timestamp": "2026-08-03T12:30:00.715604+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0453",
+      "app": "Notes",
+      "raw_asr": "note to self: ask divya nair about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-03T13:34:00.197645+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0131",
       "app": "Slack",
       "raw_asr": "quick update on project comet: i so finished the wireframe review with rahul iyer and we're on track for northwind traders demo next week",
@@ -621,7 +621,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0272",
+      "record_id": "doc-0277",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard vikram shah estimates two sprints so growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
@@ -637,19 +637,27 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0331",
+      "record_id": "doc-0236",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with rahul iyer decided to push the northwind traders pilot by one week to fix the edge cases growth pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Rahul Iyer, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
+      "timestamp": "2026-08-03T15:23:00.002259+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0473",
+      "app": "Notes",
+      "raw_asr": "idea: maybe vikram shah should present project comet progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Vikram Shah should present Project Comet progress at the next all-hands.",
+      "timestamp": "2026-08-03T16:09:00.088726+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0336",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with rahul iyer decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Rahul Iyer, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
       "timestamp": "2026-08-03T16:13:00.744797+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0458",
-      "app": "Notes",
-      "raw_asr": "note to self: ask you know divya nair about the project falcon budget before friday",
-      "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
-      "timestamp": "2026-08-03T17:15:00.522669+00:00",
       "extra_metadata": {}
     },
     {
@@ -677,22 +685,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0474",
-      "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project falcon um progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Falcon progress at the next all-hands.",
-      "timestamp": "2026-08-03T19:22:00.577669+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0238",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes um draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the northwind traders pilot by one week to fix the edge cases platform pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
-      "timestamp": "2026-08-03T19:31:00.283927+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0137",
       "app": "Slack",
       "raw_asr": "wrapped up the project falcon spec review ananya rao raised a concern about the timeline for platform pod",
@@ -701,11 +693,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0503",
+      "record_id": "note-0511",
       "app": "Notes",
-      "raw_asr": "note to self: the project falcon budget basically ask is 40000 dollars for um this quarter",
+      "raw_asr": "note to self: the project falcon budget ask is 40000 dollars for this quarter",
       "llm_formatted": "Note to self: the Project Falcon budget ask is 40,000 dollars for this quarter.",
-      "timestamp": "2026-08-04T06:10:04+00:00",
+      "timestamp": "2026-08-04T06:40:26+00:00",
       "extra_metadata": {}
     },
     {
@@ -717,7 +709,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0500",
+      "record_id": "note-0503",
       "app": "Notes",
       "raw_asr": "reminder: like platform pod retro moved to next monday because of project comet",
       "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
@@ -725,31 +717,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0347",
-      "app": "Outlook",
-      "raw_asr": "email to northwind traders: sharing the updated timeline for project falcon vikram shah will be the point of contact on our side going forward",
-      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
-      "timestamp": "2026-08-04T12:42:00.082079+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0235",
-      "app": "Google Docs",
-      "raw_asr": "draft section basically for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off like by basically redesigning the signup flow with rahul iyer owning the design system updates and growth pod owning rollout",
-      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-08-04T13:51:00.017042+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0226",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes basically draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the meridian retail basically pilot by one week to fix the edge cases growth pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
-      "timestamp": "2026-08-04T15:22:00.549804+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0373",
+      "record_id": "mail-0378",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: divya nair to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Divya Nair to send the Project Falcon rollout plan by Friday.",
@@ -757,7 +725,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0284",
+      "record_id": "note-0471",
+      "app": "Notes",
+      "raw_asr": "reminder: platform pod retro moved to next monday like because so of project falcon",
+      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-04T15:46:00.099923+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0289",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a like configurable dashboard ananya rao estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -773,15 +749,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0454",
-      "app": "Notes",
-      "raw_asr": "idea: maybe ananya rao should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-05T08:07:00.637432+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0422",
+      "record_id": "mail-0427",
       "app": "Outlook",
       "raw_asr": "email to rahul iyer: confirming our sync um about project comet is moved to thursday at 3 pm please loop so in platform pod before then",
       "llm_formatted": "Email to Rahul Iyer: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -789,7 +757,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0502",
+      "record_id": "note-0505",
       "app": "Notes",
       "raw_asr": "note to self: ask rahul iyer about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Rahul Iyer about the Project Falcon budget before Friday.",
@@ -813,7 +781,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0488",
+      "record_id": "note-0491",
       "app": "Notes",
       "raw_asr": "note to self: ask rahul iyer about the basically project comet budget before friday",
       "llm_formatted": "Note to self: ask Rahul Iyer about the Project Comet budget before Friday.",
@@ -821,19 +789,27 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0473",
+      "record_id": "note-0478",
       "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project falcon budget before uh friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Falcon budget before Friday.",
-      "timestamp": "2026-08-05T17:24:00.822017+00:00",
+      "raw_asr": "reminder: growth pod retro moved to next monday because of project comet like",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
+      "timestamp": "2026-08-05T17:53:00.369272+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0454",
+      "app": "Notes",
+      "raw_asr": "reminder: platform pod retro moved to next monday because of project comet",
+      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
+      "timestamp": "2026-08-05T18:42:00.840220+00:00",
       "extra_metadata": {}
     },
     {
       "record_id": "note-0455",
       "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project falcon budget before friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Falcon budget before Friday.",
-      "timestamp": "2026-08-06T08:10:00.916107+00:00",
+      "raw_asr": "note to self: ask vikram shah about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-05T18:53:00.208122+00:00",
       "extra_metadata": {}
     },
     {
@@ -845,7 +821,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0327",
+      "record_id": "doc-0332",
       "app": "Google Docs",
       "raw_asr": "draft like section for project falcon like (prj-flc): the like goal of this phase is to reduce onboarding drop-off by redesigning the signup flow like with vikram shah owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Platform Pod owning rollout.",
@@ -853,7 +829,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0251",
+      "record_id": "doc-0256",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard ananya rao estimates two sprints growth pod will need uh one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Growth Pod will need one more engineer.",
@@ -861,7 +837,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0376",
+      "record_id": "mail-0381",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project falcon vikram shah will be the point of contact on our side going forward so",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -869,23 +845,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0471",
-      "app": "Notes",
-      "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
-      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-06T11:56:00.664636+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0451",
-      "app": "Notes",
-      "raw_asr": "idea: maybe ananya rao should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-06T13:13:00.213363+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0325",
+      "record_id": "doc-0330",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard ananya rao estimates two sprints growth pod will need you know one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Growth Pod will need one more engineer.",
@@ -893,7 +853,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0399",
+      "record_id": "note-0464",
+      "app": "Notes",
+      "raw_asr": "reminder: growth so pod retro moved to next monday because of project falcon",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-06T14:57:00.182953+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0404",
       "app": "Outlook",
       "raw_asr": "follow-up email uh after the meridian retail call: you know divya nair to send the project uh comet rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Comet rollout plan by Friday.",
@@ -901,11 +869,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0448",
+      "record_id": "note-0509",
       "app": "Notes",
-      "raw_asr": "idea: maybe ananya rao should present project comet like progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-06T15:49:00.328519+00:00",
+      "raw_asr": "idea: maybe divya nair should present project comet progress at uh the next all-hands",
+      "llm_formatted": "Idea: maybe Divya Nair should present Project Comet progress at the next all-hands.",
+      "timestamp": "2026-08-06T17:13:00.032825+00:00",
       "extra_metadata": {}
     },
     {
@@ -917,11 +885,27 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0360",
+      "app": "Outlook",
+      "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm please loop in you know platform pod before then",
+      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
+      "timestamp": "2026-08-06T17:41:00.137755+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0115",
       "app": "Slack",
       "raw_asr": "heads up vikram shah and um i are syncing on project comet tomorrow morning about the northwind traders rollout basically",
       "llm_formatted": "Heads up, Vikram Shah and I are syncing on Project Comet tomorrow morning about the Northwind Traders rollout.",
       "timestamp": "2026-08-06T17:41:00.781476+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0225",
+      "app": "Notes",
+      "raw_asr": "for anyone new joining: ananya so rao is the design lead here at loopwork",
+      "llm_formatted": "For anyone new joining: Ananya Rao is the Design Lead here at Loopwork.",
+      "timestamp": "2026-08-06T18:34:00.257545+00:00",
       "extra_metadata": {}
     },
     {
@@ -933,7 +917,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0318",
+      "record_id": "doc-0323",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates and growth basically pod like owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
@@ -941,7 +925,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0258",
+      "record_id": "doc-0263",
       "app": "Google Docs",
       "raw_asr": "prd note for like project falcon (prj-flc): northwind traders has asked for a configurable so dashboard vikram shah estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
@@ -949,15 +933,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0149",
-      "app": "Slack",
-      "raw_asr": "blocked on project falcon until divya nair finishes the basically api contract following up with them today",
-      "llm_formatted": "Blocked on Project Falcon until Divya Nair finishes the API contract, following up with them today.",
-      "timestamp": "2026-08-07T11:04:00.394981+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0396",
+      "record_id": "mail-0401",
       "app": "Outlook",
       "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm um please loop in growth pod before then",
       "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -965,15 +941,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0444",
+      "record_id": "note-0506",
       "app": "Notes",
-      "raw_asr": "reminder: platform pod um retro moved to next monday because of project comet",
-      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-08-07T11:58:00.754698+00:00",
+      "raw_asr": "note to basically self: ask vikram shah about um the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-07T11:59:00.614787+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0432",
+      "record_id": "mail-0437",
       "app": "Outlook",
       "raw_asr": "email to ananya rao: basically confirming our so sync about project falcon is moved to thursday at 3 pm basically please loop in you know platform so pod before basically then",
       "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -981,11 +957,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0496",
+      "record_id": "note-0499",
       "app": "Notes",
       "raw_asr": "reminder: um growth pod retro moved to next monday because of project comet",
       "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
       "timestamp": "2026-08-07T12:27:00.448947+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0223",
+      "app": "Notes",
+      "raw_asr": "quick context note: rahul iyer is our engineering lead on the loopwork team",
+      "llm_formatted": "Quick context note: Rahul Iyer is our Engineering Lead on the Loopwork team.",
+      "timestamp": "2026-08-07T12:32:00.967599+00:00",
       "extra_metadata": {}
     },
     {
@@ -1005,7 +989,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0425",
+      "record_id": "mail-0430",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: like sharing the updated timeline for project comet divya nair will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
@@ -1021,15 +1005,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0357",
-      "app": "Outlook",
-      "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point like of like contact on our side going forward you know",
-      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
-      "timestamp": "2026-08-07T13:46:00.282887+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0270",
+      "record_id": "doc-0275",
       "app": "Google Docs",
       "raw_asr": "prd note for basically project comet (prj-cmt): meridian retail has asked for a configurable dashboard rahul iyer estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
@@ -1037,11 +1013,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0457",
+      "record_id": "note-0467",
       "app": "Notes",
-      "raw_asr": "reminder: growth pod retro moved to next monday because of project comet",
-      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-08-07T14:53:00.471093+00:00",
+      "raw_asr": "note to self: ask vikram shah about the project comet budget before uh friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-07T15:08:00.396696+00:00",
       "extra_metadata": {}
     },
     {
@@ -1061,7 +1037,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0480",
+      "record_id": "note-0483",
       "app": "Notes",
       "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
       "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
@@ -1077,7 +1053,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0428",
+      "record_id": "mail-0433",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated you know timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -1085,7 +1061,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0306",
+      "record_id": "doc-0311",
       "app": "Google Docs",
       "raw_asr": "prd note for project so comet (prj-cmt): uh meridian retail has asked for a configurable dashboard divya nair estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
@@ -1093,15 +1069,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0449",
+      "record_id": "note-0462",
       "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-07T19:37:00.182113+00:00",
+      "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-07T19:28:00.488386+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0401",
+      "record_id": "mail-0406",
       "app": "Outlook",
       "raw_asr": "email so to meridian retail: sharing the updated timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -1109,7 +1085,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0316",
+      "record_id": "doc-0321",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is um to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system updates um and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
@@ -1117,15 +1093,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0353",
-      "app": "Outlook",
-      "raw_asr": "email to divya nair: confirming uh our sync about project falcon is moved um to thursday at 3 pm please loop in growth pod before then",
-      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
-      "timestamp": "2026-08-08T10:33:00.487625+00:00",
+      "record_id": "slk-0149",
+      "app": "Slack",
+      "raw_asr": "blocked on project falcon until divya nair finishes the basically api contract following up with them today",
+      "llm_formatted": "Blocked on Project Falcon until Divya Nair finishes the API contract, following up with them today.",
+      "timestamp": "2026-08-08T11:04:00.394981+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0283",
+      "record_id": "doc-0288",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon basically (prj-flc) timeline with like rahul iyer decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Rahul Iyer, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -1133,7 +1109,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0497",
+      "record_id": "note-0500",
       "app": "Notes",
       "raw_asr": "idea: maybe divya nair should present project falcon progress at the next all-hands",
       "llm_formatted": "Idea: maybe Divya Nair should present Project Falcon progress at the next all-hands.",
@@ -1141,7 +1117,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0369",
+      "record_id": "mail-0374",
       "app": "Outlook",
       "raw_asr": "follow-up basically email after the meridian retail call: divya nair to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Falcon rollout plan by Friday.",
@@ -1149,7 +1125,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0479",
+      "record_id": "note-0482",
       "app": "Notes",
       "raw_asr": "reminder: growth pod retro moved to next monday because of project falcon",
       "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
@@ -1157,15 +1133,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0229",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with ananya you know rao decided to push the northwind traders pilot by one week to fix the edge cases growth pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
-      "timestamp": "2026-08-08T16:20:00.366824+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0252",
+      "record_id": "doc-0257",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup basically flow with divya nair owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -1173,15 +1141,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0467",
-      "app": "Notes",
-      "raw_asr": "idea: maybe you know divya nair should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Divya Nair should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-08T17:20:00.202107+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0493",
+      "record_id": "note-0496",
       "app": "Notes",
       "raw_asr": "note to self: ask divya nair about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
@@ -1197,14 +1157,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0224",
-      "app": "Google Docs",
-      "raw_asr": "prd note so for project falcon (prj-flc): meridian retail has asked for a configurable dashboard divya nair estimates two sprints platform pod will need one more engineer",
-      "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
-      "timestamp": "2026-08-09T08:18:00.459606+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0103",
       "app": "Slack",
       "raw_asr": "standup note: project comet is at 60 percent ananya rao you know is helping unblock the platform pod sprint",
@@ -1213,7 +1165,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0436",
+      "record_id": "mail-0441",
       "app": "Outlook",
       "raw_asr": "email to vikram uh shah: confirming our sync um about project comet is moved to thursday at 3 pm please loop in growth you know pod before then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -1221,15 +1173,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0368",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the northwind traders call: rahul iyer to send the project falcon rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
-      "timestamp": "2026-08-09T11:11:00.970082+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0277",
+      "record_id": "doc-0282",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding uh drop-off by redesigning basically the signup flow with rahul iyer owning the design system updates and growth uh pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
@@ -1237,7 +1181,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0498",
+      "record_id": "note-0501",
       "app": "Notes",
       "raw_asr": "idea: maybe rahul iyer should present project falcon progress at the next all-hands",
       "llm_formatted": "Idea: maybe Rahul Iyer should present Project Falcon progress at the next all-hands.",
@@ -1245,7 +1189,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0439",
+      "record_id": "note-0481",
+      "app": "Notes",
+      "raw_asr": "note like to self: ask rahul iyer about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-09T13:04:00.486548+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0444",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project falcon vikram shah will you know be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -1253,27 +1205,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0472",
-      "app": "Notes",
-      "raw_asr": "reminder: growth pod retro moved to next monday because of project falcon",
-      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
-      "timestamp": "2026-08-09T14:09:00.107560+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0423",
-      "app": "Outlook",
-      "raw_asr": "email to divya nair: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
-      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
-      "timestamp": "2026-08-09T14:20:00.962166+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0413",
+      "record_id": "mail-0418",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated um timeline for project falcon ananya rao will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Ananya Rao will be the point of contact on our side going forward.",
       "timestamp": "2026-08-09T15:38:00.461631+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0508",
+      "app": "Notes",
+      "raw_asr": "note to self: ask divya nair about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Divya Nair about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-09T16:11:00.409197+00:00",
       "extra_metadata": {}
     },
     {
@@ -1282,6 +1226,14 @@
       "raw_asr": "quick update on project falcon: i finished the wireframe review with vikram shah and we're on track for meridian retail uh demo next week",
       "llm_formatted": "Quick update on Project Falcon: I finished the wireframe review with Vikram Shah and we're on track for Meridian Retail demo next week.",
       "timestamp": "2026-08-09T16:57:00.134393+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0368",
+      "app": "Outlook",
+      "raw_asr": "email to northwind so traders: sharing the updated timeline for project comet you know divya nair will be the point of contact on our side um going forward",
+      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-09T17:21:00.895964+00:00",
       "extra_metadata": {}
     },
     {
@@ -1301,7 +1253,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0262",
+      "record_id": "doc-0267",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with divya nair decided basically to push the northwind traders uh pilot by one like week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Divya Nair, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
@@ -1309,7 +1261,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0324",
+      "record_id": "doc-0329",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the so goal of this phase is to reduce onboarding drop-off by redesigning the uh signup flow like with divya nair owning like the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -1317,7 +1269,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0289",
+      "record_id": "doc-0294",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: you know discussed project falcon (prj-flc) timeline um with ananya rao decided to push like the you know northwind traders pilot by one week to fix the edge cases growth pod um found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
@@ -1333,15 +1285,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0345",
-      "app": "Outlook",
-      "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm please loop in um platform pod before then",
-      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-08-10T09:28:00.465159+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0394",
+      "record_id": "mail-0399",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: divya nair to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Divya Nair to send the Project Falcon rollout plan by Friday.",
@@ -1349,15 +1293,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0452",
-      "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-10T12:38:00.780953+00:00",
+      "record_id": "doc-0247",
+      "app": "Google Docs",
+      "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to like reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates and so platform pod owning rollout",
+      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
+      "timestamp": "2026-08-10T11:55:00.287881+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0383",
+      "record_id": "mail-0388",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: rahul iyer to send the project comet rollout plan by basically friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
@@ -1373,11 +1317,27 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0361",
+      "app": "Outlook",
+      "raw_asr": "email to meridian retail: sharing the updated timeline for project falcon ananya rao will be the point of contact on our side going forward",
+      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Ananya Rao will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-10T13:19:00.028507+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0108",
       "app": "Slack",
       "raw_asr": "quick update on project falcon: uh i finished the wireframe review with ananya rao and we're on track for northwind traders demo next week",
       "llm_formatted": "Quick update on Project Falcon: I finished the wireframe review with Ananya Rao and we're on track for Northwind Traders demo next week.",
       "timestamp": "2026-08-10T13:25:00.035467+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0428",
+      "app": "Outlook",
+      "raw_asr": "email to divya nair: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
+      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
+      "timestamp": "2026-08-10T14:20:00.962166+00:00",
       "extra_metadata": {}
     },
     {
@@ -1389,7 +1349,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0392",
+      "record_id": "note-0469",
+      "app": "Notes",
+      "raw_asr": "note to self: ask vikram shah about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-10T14:56:00.769120+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0397",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project falcon vikram shah will be the basically point so of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -1413,7 +1381,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0481",
+      "record_id": "note-0484",
       "app": "Notes",
       "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
       "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
@@ -1421,7 +1389,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0250",
+      "record_id": "doc-0255",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard divya nair estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Divya Nair estimates two sprints, Growth Pod will need one more engineer.",
@@ -1429,15 +1397,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0460",
-      "app": "Notes",
-      "raw_asr": "reminder: growth pod retro moved to next monday because of project falcon",
-      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
-      "timestamp": "2026-08-11T10:14:00.740446+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0312",
+      "record_id": "doc-0317",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with divya nair decided to push the meridian uh retail pilot by one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Divya Nair, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -1445,27 +1405,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0230",
-      "app": "Google Docs",
-      "raw_asr": "prd note for project falcon (prj-flc): meridian retail has asked for a configurable dashboard rahul iyer estimates two uh sprints platform um pod basically will need um one more like engineer",
-      "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
-      "timestamp": "2026-08-11T10:52:00.864618+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0370",
+      "record_id": "mail-0375",
       "app": "Outlook",
       "raw_asr": "email to uh vikram shah: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
       "timestamp": "2026-08-11T12:00:00.328083+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0223",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the meridian retail pilot by one week to fix the edge cases platform pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
-      "timestamp": "2026-08-11T12:03:00.439072+00:00",
       "extra_metadata": {}
     },
     {
@@ -1485,7 +1429,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0415",
+      "record_id": "mail-0420",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project falcon rahul iyer will be the point of contact on our uh side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Rahul Iyer will be the point of contact on our side going forward.",
@@ -1493,19 +1437,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0482",
+      "record_id": "mail-0371",
+      "app": "Outlook",
+      "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point basically of contact on our side going forward",
+      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-11T15:02:00.837246+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0485",
       "app": "Notes",
       "raw_asr": "reminder: uh platform pod um retro moved to next monday because of project falcon",
       "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Falcon.",
       "timestamp": "2026-08-11T16:14:00.701399+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0463",
-      "app": "Notes",
-      "raw_asr": "note to self: ask divya nair about the project falcon budget before friday",
-      "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
-      "timestamp": "2026-08-11T16:51:00.087276+00:00",
       "extra_metadata": {}
     },
     {
@@ -1517,6 +1461,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0358",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: ananya rao to send the project comet rollout plan basically by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-08-11T17:45:00.171792+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0113",
       "app": "Slack",
       "raw_asr": "wrapped up the project comet spec review divya basically nair raised a concern about you know the timeline for platform pod",
@@ -1525,15 +1477,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0476",
+      "record_id": "note-0452",
       "app": "Notes",
-      "raw_asr": "idea: maybe divya nair should present project comet progress at um the next all-hands",
-      "llm_formatted": "Idea: maybe Divya Nair should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-11T18:45:00.944465+00:00",
+      "raw_asr": "reminder: platform pod retro moved to next monday because of project falcon",
+      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-11T18:51:00.748716+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0292",
+      "record_id": "doc-0297",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
@@ -1541,11 +1493,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0231",
+      "record_id": "doc-0233",
       "app": "Google Docs",
-      "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning basically the signup flow with rahul iyer owning the design system updates and growth pod owning rollout",
-      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-08-12T08:05:00.681108+00:00",
+      "raw_asr": "meeting notes draft: discussed project comet like (prj-cmt) timeline with divya like nair decided to push the meridian retail pilot by one week to fix the edge cases platform pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Divya Nair, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
+      "timestamp": "2026-08-11T19:52:00.892992+00:00",
       "extra_metadata": {}
     },
     {
@@ -1557,11 +1509,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0359",
+      "record_id": "mail-0352",
       "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: rahul iyer to send the like project comet rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
-      "timestamp": "2026-08-12T09:12:00.112245+00:00",
+      "raw_asr": "email to divya nair: confirming our sync about project comet is moved to thursday at 3 pm please loop in platform pod before then",
+      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
+      "timestamp": "2026-08-12T09:11:00.077941+00:00",
       "extra_metadata": {}
     },
     {
@@ -1573,7 +1525,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0484",
+      "record_id": "note-0487",
       "app": "Notes",
       "raw_asr": "idea: maybe ananya rao should present project comet progress at the next all-hands",
       "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
@@ -1581,7 +1533,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0489",
+      "record_id": "note-0492",
       "app": "Notes",
       "raw_asr": "idea: maybe vikram shah should present project falcon progress like at the next all-hands",
       "llm_formatted": "Idea: maybe Vikram Shah should present Project Falcon progress at the next all-hands.",
@@ -1589,7 +1541,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0332",
+      "record_id": "doc-0337",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding basically drop-off by redesigning the signup flow with rahul iyer owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
@@ -1613,11 +1565,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0459",
+      "record_id": "note-0458",
       "app": "Notes",
-      "raw_asr": "note to self: ask uh divya nair about the project comet budget um before friday",
-      "llm_formatted": "Note to self: ask Divya Nair about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-12T17:41:00.655479+00:00",
+      "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-12T17:38:00.162705+00:00",
       "extra_metadata": {}
     },
     {
@@ -1629,27 +1581,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0483",
+      "record_id": "note-0466",
       "app": "Notes",
-      "raw_asr": "idea: maybe rahul iyer should present project comet progress at the next all-hands so",
-      "llm_formatted": "Idea: maybe Rahul Iyer should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-12T18:35:00.651022+00:00",
+      "raw_asr": "idea: maybe ananya rao uh should present project comet progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
+      "timestamp": "2026-08-12T18:38:00.830105+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0237",
-      "app": "Google Docs",
-      "raw_asr": "draft section for project falcon (prj-flc): the goal so of this phase is to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system updates and growth pod owning so rollout",
-      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-08-12T19:29:00.432125+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0469",
+      "record_id": "note-0510",
       "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project comet budget before friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-13T08:16:00.591585+00:00",
+      "raw_asr": "note to self: ask rahul iyer about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-12T19:34:00.040591+00:00",
       "extra_metadata": {}
     },
     {
@@ -1661,27 +1605,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0236",
-      "app": "Google Docs",
-      "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard vikram shah estimates two sprints platform pod will need one more engineer",
-      "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Platform Pod will need one more engineer.",
-      "timestamp": "2026-08-13T09:53:00.948878+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0339",
+      "record_id": "doc-0344",
       "app": "Google Docs",
       "raw_asr": "draft section um for project comet (prj-cmt): the goal of this phase is to like reduce onboarding so drop-off by redesigning the signup flow with vikram shah owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Platform Pod owning rollout.",
       "timestamp": "2026-08-13T10:55:00.162439+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0445",
-      "app": "Notes",
-      "raw_asr": "note to self: ask rahul you know iyer about the so project comet budget before friday",
-      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-13T12:08:00.123514+00:00",
       "extra_metadata": {}
     },
     {
@@ -1693,7 +1621,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0409",
+      "record_id": "mail-0414",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: rahul iyer to send the project falcon rollout plan um by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
@@ -1701,7 +1629,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0494",
+      "record_id": "note-0507",
+      "app": "Notes",
+      "raw_asr": "note to self: ask basically ananya rao about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Ananya Rao about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-13T12:29:00.015726+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0497",
       "app": "Notes",
       "raw_asr": "idea: maybe rahul iyer should present project so falcon progress at the next all-hands",
       "llm_formatted": "Idea: maybe Rahul Iyer should present Project Falcon progress at the next all-hands.",
@@ -1709,15 +1645,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0343",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: ananya rao to send the project falcon rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Falcon rollout plan by Friday.",
+      "record_id": "note-0461",
+      "app": "Notes",
+      "raw_asr": "reminder: growth pod retro moved to next you know monday because of project falcon",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-13T13:22:00.786501+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0348",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with ananya rao decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
       "timestamp": "2026-08-13T14:20:00.292716+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0378",
+      "record_id": "mail-0383",
       "app": "Outlook",
       "raw_asr": "email to meridian um retail: sharing the updated timeline for project falcon vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -1725,15 +1669,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0446",
-      "app": "Notes",
-      "raw_asr": "note to self: ask divya nair about the project comet budget before friday",
-      "llm_formatted": "Note to self: ask Divya Nair about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-13T16:40:00.745418+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0285",
+      "record_id": "doc-0290",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the meridian retail pilot by one week to fix the edge cases platform uh pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -1749,7 +1685,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0492",
+      "record_id": "note-0495",
       "app": "Notes",
       "raw_asr": "note to self: so ask rahul iyer about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Rahul Iyer about the Project Falcon budget before Friday.",
@@ -1757,15 +1693,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0036",
-      "app": "Slack",
-      "raw_asr": "blocked uh on like project comet until ananya rao finishes the api contract following up with them today",
-      "llm_formatted": "Blocked on Project Comet until Ananya Rao finishes the API contract, following up with them today.",
-      "timestamp": "2026-08-13T18:41:00.372865+00:00",
+      "record_id": "note-0486",
+      "app": "Notes",
+      "raw_asr": "idea: maybe rahul iyer should present project comet progress at the next all-hands so",
+      "llm_formatted": "Idea: maybe Rahul Iyer should present Project Comet progress at the next all-hands.",
+      "timestamp": "2026-08-13T18:35:00.651022+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0257",
+      "record_id": "doc-0262",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) you know timeline with rahul iyer basically decided to push so the northwind traders pilot by one week to um fix the edge you know cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Rahul Iyer, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
@@ -1773,15 +1709,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0462",
-      "app": "Notes",
-      "raw_asr": "reminder: growth pod retro moved to next monday because of project comet",
-      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-08-14T08:30:00.947870+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0431",
+      "record_id": "mail-0436",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing basically the updated timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -1797,7 +1725,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0265",
+      "record_id": "doc-0270",
       "app": "Google Docs",
       "raw_asr": "meeting notes so draft: discussed project comet (prj-cmt) timeline with vikram shah decided to push you know the meridian retail pilot by one like week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -1805,7 +1733,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0486",
+      "record_id": "note-0489",
       "app": "Notes",
       "raw_asr": "note to self: ask rahul iyer uh about the project falcon budget before friday",
       "llm_formatted": "Note to self: ask Rahul Iyer about the Project Falcon budget before Friday.",
@@ -1821,15 +1749,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0465",
-      "app": "Notes",
-      "raw_asr": "note to self: ask vikram shah about the so project falcon budget before uh friday",
-      "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
-      "timestamp": "2026-08-14T11:57:00.112796+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0264",
+      "record_id": "doc-0269",
       "app": "Google Docs",
       "raw_asr": "prd note um for project falcon (prj-flc): northwind traders has asked uh for a configurable dashboard rahul iyer estimates you know two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
@@ -1837,7 +1757,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0330",
+      "record_id": "doc-0335",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with ananya rao decided to push the meridian retail pilot by uh one week to fix basically the edge cases like platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -1861,11 +1781,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0427",
+      "record_id": "mail-0432",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: ananya rao like to send the project comet rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Comet rollout plan by Friday.",
       "timestamp": "2026-08-14T17:07:00.035353+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "slk-0036",
+      "app": "Slack",
+      "raw_asr": "blocked uh on like project comet until ananya rao finishes the api contract following up with them today",
+      "llm_formatted": "Blocked on Project Comet until Ananya Rao finishes the API contract, following up with them today.",
+      "timestamp": "2026-08-14T18:41:00.372865+00:00",
       "extra_metadata": {}
     },
     {
@@ -1874,14 +1802,6 @@
       "raw_asr": "heads up rahul iyer and i are syncing on project comet tomorrow morning about the meridian retail rollout",
       "llm_formatted": "Heads up, Rahul Iyer and I are syncing on Project Comet tomorrow morning about the Meridian Retail rollout.",
       "timestamp": "2026-08-14T18:45:00.902740+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0470",
-      "app": "Notes",
-      "raw_asr": "idea: maybe vikram shah should present project uh comet progress at the next all-hands you know",
-      "llm_formatted": "Idea: maybe Vikram Shah should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-14T18:53:00.094327+00:00",
       "extra_metadata": {}
     },
     {
@@ -1901,11 +1821,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0443",
+      "record_id": "note-0480",
       "app": "Notes",
-      "raw_asr": "note to self: ask rahul you know iyer about the project comet uh budget before friday",
-      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-14T19:38:00.228205+00:00",
+      "raw_asr": "reminder: growth pod retro moved to next monday because of project falcon",
+      "llm_formatted": "Reminder: Growth Pod retro moved to next Monday because of Project Falcon.",
+      "timestamp": "2026-08-14T19:04:00.364544+00:00",
       "extra_metadata": {}
     },
     {
@@ -1917,11 +1837,35 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "doc-0231",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project comet like (prj-cmt) timeline with ananya rao decided to push the meridian retail pilot by one week to fix the edge cases platform pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
+      "timestamp": "2026-08-15T08:58:00.428657+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0079",
       "app": "Slack",
       "raw_asr": "wrapped up the project falcon spec review rahul iyer raised a concern about the timeline for platform pod",
       "llm_formatted": "Wrapped up the Project Falcon spec review, Rahul Iyer raised a concern about the timeline for Platform Pod.",
       "timestamp": "2026-08-15T09:12:00.089082+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0463",
+      "app": "Notes",
+      "raw_asr": "note to self: ask vikram shah about the project comet budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Comet budget before Friday.",
+      "timestamp": "2026-08-15T10:05:00.517752+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0474",
+      "app": "Notes",
+      "raw_asr": "reminder: platform pod retro moved to next monday because of project comet",
+      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
+      "timestamp": "2026-08-15T10:35:00.525882+00:00",
       "extra_metadata": {}
     },
     {
@@ -1933,7 +1877,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0286",
+      "record_id": "doc-0291",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with so ananya rao owning the design system updates uh and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
@@ -1941,7 +1885,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0278",
+      "record_id": "doc-0283",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -1949,15 +1893,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0477",
+      "record_id": "note-0475",
       "app": "Notes",
-      "raw_asr": "idea: maybe ananya rao should present project comet progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Ananya Rao should present Project Comet progress at the next all-hands.",
-      "timestamp": "2026-08-15T13:44:00.954886+00:00",
+      "raw_asr": "idea: maybe ananya rao should present like project falcon progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Ananya Rao should present Project Falcon progress at the next all-hands.",
+      "timestamp": "2026-08-15T13:59:00.009336+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0382",
+      "record_id": "note-0459",
+      "app": "Notes",
+      "raw_asr": "note to self: ask vikram shah basically about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Vikram Shah about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-15T14:14:00.638169+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0387",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: ananya rao to send the project falcon uh rollout uh plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Falcon rollout plan by Friday.",
@@ -1989,7 +1941,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0319",
+      "record_id": "doc-0324",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): meridian retail has asked for a configurable dashboard ananya rao estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Ananya Rao estimates two sprints, Growth Pod will need one more engineer.",
@@ -2005,7 +1957,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0280",
+      "record_id": "doc-0285",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon um (prj-flc): northwind traders has asked for a configurable dashboard vikram shah estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
@@ -2013,27 +1965,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0067",
-      "app": "Slack",
-      "raw_asr": "heads up uh vikram shah and i are syncing uh on project falcon tomorrow morning about the basically northwind traders like rollout",
-      "llm_formatted": "Heads up, Vikram Shah and I are syncing on Project Falcon tomorrow morning about the Northwind Traders rollout.",
-      "timestamp": "2026-08-15T19:55:00.072492+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0254",
+      "record_id": "doc-0259",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): meridian retail has asked for a configurable dashboard rahul iyer estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Growth Pod will need one more engineer.",
       "timestamp": "2026-08-16T08:29:00.630543+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0495",
-      "app": "Notes",
-      "raw_asr": "idea: maybe ananya rao should present project falcon progress at the next all-hands",
-      "llm_formatted": "Idea: maybe Ananya Rao should present Project Falcon progress at the next all-hands.",
-      "timestamp": "2026-08-16T09:21:00.855491+00:00",
       "extra_metadata": {}
     },
     {
@@ -2045,11 +1981,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0379",
+      "record_id": "mail-0384",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline you know for project falcon vikram shah will be the point of contact on our side going basically forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
       "timestamp": "2026-08-16T11:15:00.997428+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0470",
+      "app": "Notes",
+      "raw_asr": "note to uh self: ask ananya rao about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Ananya Rao about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-16T11:40:00.896288+00:00",
       "extra_metadata": {}
     },
     {
@@ -2061,31 +2005,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "note-0478",
+      "record_id": "note-0477",
       "app": "Notes",
-      "raw_asr": "note to self: ask ananya rao about the project comet budget before friday",
-      "llm_formatted": "Note to self: ask Ananya Rao about the Project Comet budget before Friday.",
-      "timestamp": "2026-08-16T12:24:00.748322+00:00",
+      "raw_asr": "note to self: ask rahul iyer like about the you know project falcon um budget before friday",
+      "llm_formatted": "Note to self: ask Rahul Iyer about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-16T12:53:00.967672+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0064",
-      "app": "Slack",
-      "raw_asr": "wrapped up the project comet spec review divya nair raised a concern about the timeline for growth pod",
-      "llm_formatted": "Wrapped up the Project Comet spec review, Divya Nair raised a concern about the timeline for Growth Pod.",
-      "timestamp": "2026-08-16T13:15:00.073170+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "note-0447",
-      "app": "Notes",
-      "raw_asr": "reminder: platform pod basically retro moved to next monday because of project comet",
-      "llm_formatted": "Reminder: Platform Pod retro moved to next Monday because of Project Comet.",
-      "timestamp": "2026-08-16T14:02:00.026782+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0259",
+      "record_id": "doc-0264",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for uh a configurable dashboard rahul iyer estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Growth Pod will need one more engineer.",
@@ -2117,11 +2045,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0377",
+      "record_id": "mail-0382",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project falcon vikram shah will be the point like of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
       "timestamp": "2026-08-16T19:18:00.683712+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "slk-0067",
+      "app": "Slack",
+      "raw_asr": "heads up uh vikram shah and i are syncing uh on project falcon tomorrow morning about the basically northwind traders like rollout",
+      "llm_formatted": "Heads up, Vikram Shah and I are syncing on Project Falcon tomorrow morning about the Northwind Traders rollout.",
+      "timestamp": "2026-08-16T19:55:00.072492+00:00",
       "extra_metadata": {}
     },
     {
@@ -2133,7 +2069,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0313",
+      "record_id": "note-0472",
+      "app": "Notes",
+      "raw_asr": "note to self: ask divya nair about the project falcon budget before friday",
+      "llm_formatted": "Note to self: ask Divya Nair about the Project Falcon budget before Friday.",
+      "timestamp": "2026-08-17T09:10:00.255681+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "note-0498",
+      "app": "Notes",
+      "raw_asr": "idea: maybe ananya rao should present project falcon progress at the next all-hands",
+      "llm_formatted": "Idea: maybe Ananya Rao should present Project Falcon progress at the next all-hands.",
+      "timestamp": "2026-08-17T09:21:00.855491+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0318",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon like (prj-flc) like timeline with ananya rao decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -2141,11 +2093,35 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0417",
+      "record_id": "mail-0422",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet rahul iyer will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Rahul Iyer will be the point of contact on our side going forward.",
       "timestamp": "2026-08-17T10:42:00.329901+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0356",
+      "app": "Outlook",
+      "raw_asr": "email to vikram shah: confirming our sync about project uh comet is moved to thursday at 3 pm basically please loop in growth pod before then",
+      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
+      "timestamp": "2026-08-17T11:55:00.474626+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0239",
+      "app": "Google Docs",
+      "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow um with divya nair owning the design system updates and growth pod so owning rollout",
+      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
+      "timestamp": "2026-08-17T12:56:00.451723+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "slk-0064",
+      "app": "Slack",
+      "raw_asr": "wrapped up the project comet spec review divya nair raised a concern about the timeline for growth pod",
+      "llm_formatted": "Wrapped up the Project Comet spec review, Divya Nair raised a concern about the timeline for Growth Pod.",
+      "timestamp": "2026-08-17T13:15:00.073170+00:00",
       "extra_metadata": {}
     },
     {
@@ -2165,15 +2141,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0355",
-      "app": "Outlook",
-      "raw_asr": "email to meridian retail: sharing the updated timeline for project comet vikram shah will be the point of contact so on our side going forward",
-      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
-      "timestamp": "2026-08-17T18:42:00.392601+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0323",
+      "record_id": "doc-0328",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with vikram uh shah decided to push the meridian retail pilot by one week to fix um the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -2197,7 +2165,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0433",
+      "record_id": "mail-0438",
       "app": "Outlook",
       "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm please loop in platform pod before then",
       "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -2213,7 +2181,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0442",
+      "record_id": "mail-0355",
+      "app": "Outlook",
+      "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will uh be the point of contact on our so side going forward",
+      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-19T08:19:00.306016+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0447",
       "app": "Outlook",
       "raw_asr": "follow-up email after you know the northwind traders call: rahul iyer to basically send the project comet so rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
@@ -2221,7 +2197,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0374",
+      "record_id": "mail-0379",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: vikram shah to you know send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Falcon rollout plan by Friday.",
@@ -2229,15 +2205,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0356",
-      "app": "Outlook",
-      "raw_asr": "email to vikram shah: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
-      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
-      "timestamp": "2026-08-19T15:27:00.937406+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0246",
+      "record_id": "doc-0251",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked like for a configurable dashboard ananya rao estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -2253,7 +2221,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0247",
+      "record_id": "doc-0252",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal basically of this phase is to reduce onboarding drop-off by redesigning the signup flow with vikram shah owning the design system updates and um growth basically pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Growth Pod owning rollout.",
@@ -2269,7 +2237,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0293",
+      "record_id": "doc-0238",
+      "app": "Google Docs",
+      "raw_asr": "prd basically note um for project so comet (prj-cmt): meridian retail has asked for a configurable dashboard rahul iyer estimates two sprints growth pod will uh need one more engineer",
+      "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Growth Pod will need one more engineer.",
+      "timestamp": "2026-08-19T18:08:00.535097+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0298",
       "app": "Google Docs",
       "raw_asr": "prd note for so project falcon (prj-flc): meridian retail has asked for a configurable dashboard divya nair estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Growth Pod will need one more engineer.",
@@ -2285,7 +2261,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0282",
+      "record_id": "doc-0287",
       "app": "Google Docs",
       "raw_asr": "prd note for you know project falcon so (prj-flc): northwind you know traders has asked for a configurable dashboard vikram shah estimates two sprints growth pod will need one more basically engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
@@ -2293,7 +2269,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0429",
+      "record_id": "doc-0237",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with vikram shah decided to push the northwind traders pilot by one week to fix the edge cases growth pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
+      "timestamp": "2026-08-20T09:25:00.123657+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0434",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: rahul iyer to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
@@ -2317,7 +2301,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0249",
+      "record_id": "doc-0254",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning like the signup flow with divya nair owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -2333,15 +2317,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0358",
-      "app": "Outlook",
-      "raw_asr": "email to divya nair: confirming our sync about project falcon is moved to thursday at 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-08-20T18:48:00.557746+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0276",
+      "record_id": "doc-0281",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with vikram shah owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Growth Pod owning rollout.",
@@ -2349,7 +2325,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0279",
+      "record_id": "mail-0359",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the northwind traders call: vikram shah to send the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Northwind Traders call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-08-21T10:04:00.328614+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0284",
       "app": "Google Docs",
       "raw_asr": "meeting notes you know draft: discussed project comet (prj-cmt) timeline with rahul iyer decided to push the northwind traders pilot by one week to fix the edge cases uh platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Rahul Iyer, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -2397,7 +2381,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0385",
+      "record_id": "mail-0390",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the um updated timeline for project comet divya nair will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
@@ -2405,7 +2389,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0400",
+      "record_id": "mail-0405",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project falcon vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -2421,7 +2405,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0245",
+      "record_id": "doc-0250",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): you know the goal of this phase is to reduce basically onboarding drop-off by redesigning the signup flow with vikram shah owning so the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Growth Pod owning rollout.",
@@ -2501,7 +2485,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0310",
+      "record_id": "doc-0315",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet um (prj-cmt) timeline with vikram shah decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -2525,6 +2509,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "doc-0245",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with ananya rao decided to push the meridian retail pilot um by one week to fix so the edge cases platform pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
+      "timestamp": "2026-08-23T08:17:00.083566+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0190",
       "app": "Slack",
       "raw_asr": "quick update on project comet: i finished the wireframe review with vikram shah and we're on track for northwind traders demo next week",
@@ -2533,7 +2525,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0387",
+      "record_id": "mail-0392",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet rahul iyer will be you know the point so of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Rahul Iyer will be the point of contact on our side going forward.",
@@ -2541,7 +2533,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0424",
+      "record_id": "mail-0429",
       "app": "Outlook",
       "raw_asr": "email to basically vikram shah: confirming our sync about project comet is moved to thursday basically at 3 pm please loop in platform pod before then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -2549,7 +2541,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0416",
+      "record_id": "mail-0421",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet ananya rao will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -2573,7 +2565,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0271",
+      "record_id": "mail-0353",
+      "app": "Outlook",
+      "raw_asr": "email to meridian retail: sharing the updated timeline basically for uh project falcon vikram shah will be the point of contact on our side going forward",
+      "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-23T17:56:00.720478+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0276",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon um (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the basically design system so updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -2581,7 +2581,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0308",
+      "record_id": "doc-0313",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard vikram shah estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Vikram Shah estimates two sprints, Growth Pod will need one more engineer.",
@@ -2589,7 +2589,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0298",
+      "record_id": "doc-0303",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: basically discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot by one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -2597,7 +2597,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0281",
+      "record_id": "doc-0241",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with vikram shah decided to push the meridian retail pilot by one week to basically fix the edge cases growth pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
+      "timestamp": "2026-08-24T11:39:00.654691+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0286",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: um discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot by one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -2605,7 +2613,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0263",
+      "record_id": "doc-0268",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is uh to reduce onboarding drop-off by redesigning the signup flow like with divya nair owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -2626,14 +2634,6 @@
       "raw_asr": "wrapped up the project comet spec review rahul iyer raised a concern about the timeline for growth pod",
       "llm_formatted": "Wrapped up the Project Comet spec review, Rahul Iyer raised a concern about the timeline for Growth Pod.",
       "timestamp": "2026-08-24T13:42:00.708985+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0365",
-      "app": "Outlook",
-      "raw_asr": "email to divya nair: confirming our sync about project you know falcon is moved to thursday you know at 3 pm please loop in growth pod before then",
-      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
-      "timestamp": "2026-08-24T13:57:00.722037+00:00",
       "extra_metadata": {}
     },
     {
@@ -2661,7 +2661,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0371",
+      "record_id": "mail-0376",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -2709,7 +2709,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0304",
+      "record_id": "doc-0309",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and growth pod owning um rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -2733,31 +2733,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0346",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the northwind traders call: rahul iyer to send the project falcon rollout plan basically by friday",
-      "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
-      "timestamp": "2026-08-25T11:43:00.186716+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "slk-0161",
-      "app": "Slack",
-      "raw_asr": "standup note: project falcon is at 60 percent ananya rao is helping unblock the platform pod sprint",
-      "llm_formatted": "Standup note: Project Falcon is at 60 percent, Ananya Rao is helping unblock the Platform Pod sprint.",
-      "timestamp": "2026-08-25T12:11:00.157163+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0363",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: divya nair to send the you know project comet rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Comet rollout plan by Friday.",
-      "timestamp": "2026-08-25T13:30:00.941926+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0255",
+      "record_id": "doc-0260",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates so and growth pod owning rollout so",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
@@ -2773,7 +2749,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0435",
+      "record_id": "mail-0440",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project um falcon vikram shah will be the point of contact on uh our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -2781,7 +2757,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0288",
+      "record_id": "doc-0293",
       "app": "Google Docs",
       "raw_asr": "meeting notes um draft: discussed project falcon (prj-flc) you know timeline with divya nair decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Divya Nair, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -2789,15 +2765,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0344",
+      "record_id": "mail-0373",
       "app": "Outlook",
-      "raw_asr": "email to divya nair: confirming our sync about project falcon is moved to thursday at 3 you know pm please loop in platform pod before then",
-      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-08-26T10:07:00.248627+00:00",
+      "raw_asr": "email to northwind traders: sharing basically the updated timeline for project comet rahul iyer will be the point of contact on our like side going forward",
+      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Rahul Iyer will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-26T08:28:00.713327+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0305",
+      "record_id": "doc-0310",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked for a configurable dashboard ananya um rao estimates two sprints growth like pod will need uh one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Growth Pod will need one more engineer.",
@@ -2805,7 +2781,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0290",
+      "record_id": "doc-0295",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot by one week to fix the edge you know cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
@@ -2821,11 +2797,27 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "slk-0161",
+      "app": "Slack",
+      "raw_asr": "standup note: project falcon is at 60 percent ananya rao is helping unblock the platform pod sprint",
+      "llm_formatted": "Standup note: Project Falcon is at 60 percent, Ananya Rao is helping unblock the Platform Pod sprint.",
+      "timestamp": "2026-08-26T12:11:00.157163+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0114",
       "app": "Slack",
       "raw_asr": "blocked on project comet until ananya rao so finishes the api contract following uh up with them today",
       "llm_formatted": "Blocked on Project Comet until Ananya Rao finishes the API contract, following up with them today.",
       "timestamp": "2026-08-26T13:10:00.235232+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0366",
+      "app": "Outlook",
+      "raw_asr": "email to northwind traders: sharing the updated timeline for project comet divya nair will be the point of contact on our side going forward",
+      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
+      "timestamp": "2026-08-26T13:22:00.735481+00:00",
       "extra_metadata": {}
     },
     {
@@ -2885,6 +2877,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "note-0224",
+      "app": "Notes",
+      "raw_asr": "quick context note: rahul iyer is our engineering lead on the loopwork team",
+      "llm_formatted": "Quick context note: Rahul Iyer is our Engineering Lead on the Loopwork team.",
+      "timestamp": "2026-08-27T09:12:00.233807+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0029",
       "app": "Slack",
       "raw_asr": "standup note: project falcon is at 60 um percent divya nair is helping unblock the platform pod sprint",
@@ -2909,7 +2909,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0275",
+      "record_id": "doc-0350",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project falcon um (prj-flc) timeline with rahul iyer decided to basically push the northwind traders pilot by one week to fix the edge cases platform pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Rahul Iyer, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
+      "timestamp": "2026-08-27T15:40:00.106076+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0367",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: divya nair to send the project falcon rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Falcon rollout plan by Friday.",
+      "timestamp": "2026-08-27T17:24:00.160366+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0280",
       "app": "Google Docs",
       "raw_asr": "meeting uh notes draft: discussed project comet (prj-cmt) timeline with rahul iyer decided to push the meridian retail pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Rahul Iyer, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -2917,7 +2933,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0430",
+      "record_id": "mail-0435",
       "app": "Outlook",
       "raw_asr": "email to vikram shah: confirming our sync about project falcon is moved to thursday at 3 pm please um loop in platform pod before then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -2949,15 +2965,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0364",
-      "app": "Outlook",
-      "raw_asr": "email to ananya rao: confirming our sync about project falcon is moved to thursday at so 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-08-28T10:51:00.478695+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0335",
+      "record_id": "doc-0340",
       "app": "Google Docs",
       "raw_asr": "prd note so for project comet (prj-cmt): meridian retail uh has asked for a configurable dashboard ananya rao estimates two sprints so platform pod uh will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -2970,6 +2978,14 @@
       "raw_asr": "heads up vikram shah and i are syncing on project comet tomorrow morning about the northwind traders rollout",
       "llm_formatted": "Heads up, Vikram Shah and I are syncing on Project Comet tomorrow morning about the Northwind Traders rollout.",
       "timestamp": "2026-08-28T11:57:00.633072+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0243",
+      "app": "Google Docs",
+      "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates and growth pod owning you know rollout",
+      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
+      "timestamp": "2026-08-28T12:55:00.237907+00:00",
       "extra_metadata": {}
     },
     {
@@ -3045,7 +3061,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0297",
+      "record_id": "doc-0302",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project um falcon (prj-flc) timeline with rahul iyer um decided basically to push the meridian retail pilot by one week to fix you know the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Rahul Iyer, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -3061,6 +3077,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "doc-0349",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project you know comet (prj-cmt) timeline with vikram shah decided to push the northwind traders pilot by one week to fix the edge cases growth pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
+      "timestamp": "2026-08-29T09:13:00.583364+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0216",
       "app": "Slack",
       "raw_asr": "blocked on project falcon until vikram shah basically finishes the api contract following up with them you know today",
@@ -3069,7 +3093,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0341",
+      "record_id": "doc-0346",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with vikram shah decided to push the northwind traders pilot by one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -3117,19 +3141,19 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "doc-0234",
+      "app": "Google Docs",
+      "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot by one week to fix the edge cases growth pod um found",
+      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
+      "timestamp": "2026-08-29T15:26:00.748918+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0141",
       "app": "Slack",
       "raw_asr": "standup note: project falcon is at 60 percent ananya rao is like helping unblock the platform pod sprint you know",
       "llm_formatted": "Standup note: Project Falcon is at 60 percent, Ananya Rao is helping unblock the Platform Pod sprint.",
       "timestamp": "2026-08-29T17:33:00.899322+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0232",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with ananya rao decided to push the meridian retail basically pilot by one week to fix the edge cases platform pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
-      "timestamp": "2026-08-29T19:02:00.341345+00:00",
       "extra_metadata": {}
     },
     {
@@ -3157,23 +3181,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0098",
-      "app": "Slack",
-      "raw_asr": "standup note: project comet is at 60 percent ananya uh rao is helping unblock the like platform pod sprint",
-      "llm_formatted": "Standup note: Project Comet is at 60 percent, Ananya Rao is helping unblock the Platform Pod sprint.",
-      "timestamp": "2026-08-30T13:42:00.485001+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0366",
-      "app": "Outlook",
-      "raw_asr": "email to vikram shah: confirming our sync about project comet like is moved to thursday basically at 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-08-30T14:11:00.192551+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0393",
+      "record_id": "mail-0398",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: divya nair to send the project comet rollout plan by you know friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Divya Nair to send the Project Comet rollout plan by Friday.",
@@ -3189,7 +3197,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0274",
+      "record_id": "doc-0279",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of um this phase is to reduce onboarding drop-off by redesigning the signup flow with vikram shah owning the design system updates like and platform pod owning basically rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Platform Pod owning rollout.",
@@ -3205,11 +3213,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0225",
-      "app": "Google Docs",
-      "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to uh reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and growth pod owning rollout basically",
-      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-08-31T08:20:00.098824+00:00",
+      "record_id": "note-0228",
+      "app": "Notes",
+      "raw_asr": "quick context note: vikram shah is our uh backend engineer on the loopwork team",
+      "llm_formatted": "Quick context note: Vikram Shah is our Backend Engineer on the Loopwork team.",
+      "timestamp": "2026-08-30T18:20:00.073577+00:00",
       "extra_metadata": {}
     },
     {
@@ -3221,7 +3229,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0402",
+      "record_id": "mail-0407",
       "app": "Outlook",
       "raw_asr": "email to so vikram shah: confirming our sync about project so falcon is moved to thursday at 3 pm please loop in growth pod before then",
       "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -3229,11 +3237,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0233",
+      "record_id": "doc-0244",
       "app": "Google Docs",
-      "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the basically signup um flow with so vikram shah owning the design system updates and growth pod owning rollout",
-      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-08-31T14:46:00.844398+00:00",
+      "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline basically with vikram shah decided to push the meridian retail pilot by one week to fix the edge cases platform pod found",
+      "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
+      "timestamp": "2026-08-31T12:56:00.071273+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "slk-0098",
+      "app": "Slack",
+      "raw_asr": "standup note: project comet is at 60 percent ananya uh rao is helping unblock the like platform pod sprint",
+      "llm_formatted": "Standup note: Project Comet is at 60 percent, Ananya Rao is helping unblock the Platform Pod sprint.",
+      "timestamp": "2026-08-31T13:42:00.485001+00:00",
       "extra_metadata": {}
     },
     {
@@ -3253,11 +3269,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "slk-0504",
+      "record_id": "slk-0512",
       "app": "Slack",
-      "raw_asr": "following up on the project so falcon budget ask of 40000 dollars i noted earlier finance approved it",
+      "raw_asr": "following up on the project falcon budget ask of 40000 dollars i noted um earlier finance approved it",
       "llm_formatted": "Following up on the Project Falcon budget ask of 40,000 dollars I noted earlier, finance approved it.",
-      "timestamp": "2026-09-01T06:10:04+00:00",
+      "timestamp": "2026-09-01T06:40:26+00:00",
       "extra_metadata": {}
     },
     {
@@ -3269,19 +3285,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0301",
+      "record_id": "doc-0306",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard divya nair estimates so two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
       "timestamp": "2026-09-01T12:13:00.422116+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0239",
-      "app": "Google Docs",
-      "raw_asr": "draft section for you know project comet (prj-cmt): the goal of this phase is to reduce onboarding you know drop-off basically by redesigning the signup flow with ananya rao owning the design system updates and growth pod owning rollout",
-      "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
-      "timestamp": "2026-09-01T12:28:00.614518+00:00",
       "extra_metadata": {}
     },
     {
@@ -3293,15 +3301,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0348",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: rahul uh iyer to send the project falcon rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
-      "timestamp": "2026-09-01T14:03:00.197320+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0303",
+      "record_id": "doc-0308",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning so the signup flow with ananya rao owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -3309,7 +3309,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0309",
+      "record_id": "doc-0314",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates like and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
@@ -3317,7 +3317,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0256",
+      "record_id": "doc-0261",
       "app": "Google Docs",
       "raw_asr": "prd you know note for project falcon (prj-flc): meridian retail has asked for a configurable dashboard divya nair estimates two sprints growth pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Growth Pod will need one more engineer.",
@@ -3333,7 +3333,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0267",
+      "record_id": "doc-0272",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
@@ -3349,11 +3349,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0328",
+      "record_id": "doc-0333",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the meridian retail pilot uh by one week to fix the edge cases growth pod uh found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
       "timestamp": "2026-09-02T12:05:00.893595+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0449",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the northwind traders um call: vikram you know shah to send so the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Northwind Traders call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-09-02T14:07:00.399835+00:00",
       "extra_metadata": {}
     },
     {
@@ -3365,7 +3373,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0380",
+      "record_id": "mail-0385",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet rahul iyer uh will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Rahul Iyer will be the point of contact on our side going forward.",
@@ -3373,7 +3381,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0253",
+      "record_id": "doc-0258",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with like ananya rao decided to push the meridian retail pilot by one you know week to fix the edge cases platform like pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -3421,19 +3429,19 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0365",
+      "app": "Outlook",
+      "raw_asr": "email to divya so nair: confirming our sync about project falcon is moved to thursday at 3 basically pm please loop in growth pod before then",
+      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
+      "timestamp": "2026-09-03T09:11:00.223473+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0075",
       "app": "Slack",
       "raw_asr": "heads up divya nair and i are syncing on project falcon tomorrow morning about the meridian retail rollout",
       "llm_formatted": "Heads up, Divya Nair and I are syncing on Project Falcon tomorrow morning about the Meridian Retail rollout.",
       "timestamp": "2026-09-03T10:49:00.601302+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0361",
-      "app": "Outlook",
-      "raw_asr": "email to ananya rao: confirming our sync about project comet you know is moved to thursday at 3 pm please loop in growth pod before then",
-      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
-      "timestamp": "2026-09-03T12:16:00.203983+00:00",
       "extra_metadata": {}
     },
     {
@@ -3445,7 +3453,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0307",
+      "record_id": "doc-0312",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): meridian retail has asked for like a configurable dashboard divya nair estimates two uh sprints like platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
@@ -3461,7 +3469,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0406",
+      "record_id": "mail-0351",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the northwind traders call: rahul iyer to send the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-09-03T14:44:00.781043+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0411",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the you know point like of contact you know on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -3469,7 +3485,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0266",
+      "record_id": "doc-0232",
+      "app": "Google Docs",
+      "raw_asr": "prd note for project falcon (prj-flc): meridian retail has asked for a configurable dashboard rahul iyer estimates two sprints platform pod will need one like more engineer",
+      "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
+      "timestamp": "2026-09-03T15:45:00.973918+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0271",
       "app": "Google Docs",
       "raw_asr": "prd note so for project comet (prj-cmt): meridian retail has asked for a configurable dashboard vikram um shah estimates um two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Vikram Shah estimates two sprints, Platform Pod will need one more engineer.",
@@ -3477,11 +3501,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0390",
+      "record_id": "mail-0395",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet vikram shah will be the so point of uh contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
       "timestamp": "2026-09-03T16:09:00.083079+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0240",
+      "app": "Google Docs",
+      "raw_asr": "prd basically note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard rahul iyer estimates two sprints platform pod will need one more engineer",
+      "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Platform Pod will need one more engineer.",
+      "timestamp": "2026-09-03T16:20:00.310090+00:00",
       "extra_metadata": {}
     },
     {
@@ -3501,14 +3533,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0228",
-      "app": "Google Docs",
-      "raw_asr": "prd note for project comet (prj-cmt): meridian retail has asked for a configurable dashboard divya nair estimates two like sprints growth pod will like need one more engineer",
-      "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Divya Nair estimates two sprints, Growth Pod will need one more engineer.",
-      "timestamp": "2026-09-03T19:41:00.470957+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0001",
       "app": "Slack",
       "raw_asr": "blocked on project falcon um until rahul iyer so finishes the api contract following up with them today",
@@ -3517,7 +3541,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0244",
+      "record_id": "doc-0242",
+      "app": "Google Docs",
+      "raw_asr": "prd note for project comet (prj-cmt): meridian retail has asked for a configurable dashboard rahul iyer estimates two sprints growth pod will so need one like more engineer",
+      "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Growth Pod will need one more engineer.",
+      "timestamp": "2026-09-04T10:47:00.537850+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0249",
       "app": "Google Docs",
       "raw_asr": "draft like section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao you know owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
@@ -3525,7 +3557,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0311",
+      "record_id": "doc-0316",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet (prj-cmt): northwind traders has asked basically for a configurable dashboard divya nair estimates two sprints growth pod will need uh one more engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Northwind Traders has asked for a configurable dashboard, Divya Nair estimates two sprints, Growth Pod will need one more engineer.",
@@ -3549,6 +3581,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "note-0230",
+      "app": "Notes",
+      "raw_asr": "for anyone new joining: basically divya nair is the growth analyst here at loopwork",
+      "llm_formatted": "For anyone new joining: Divya Nair is the Growth Analyst here at Loopwork.",
+      "timestamp": "2026-09-04T14:39:00.374240+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0059",
       "app": "Slack",
       "raw_asr": "wrapped up the project comet spec review vikram shah raised a concern about the timeline for platform pod",
@@ -3565,15 +3605,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0352",
-      "app": "Outlook",
-      "raw_asr": "email to ananya rao: confirming our sync about project falcon is moved to basically thursday at 3 pm please loop in platform pod before then",
-      "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-09-04T17:53:00.761196+00:00",
+      "record_id": "note-0226",
+      "app": "Notes",
+      "raw_asr": "for anyone new joining: ananya rao is the design lead here at like loopwork",
+      "llm_formatted": "For anyone new joining: Ananya Rao is the Design Lead here at Loopwork.",
+      "timestamp": "2026-09-04T17:42:00.510218+00:00",
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0395",
+      "record_id": "mail-0400",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project uh falcon vikram shah will be the point of like contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Vikram Shah will be the point of contact on our side going forward.",
@@ -3581,7 +3621,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0295",
+      "record_id": "doc-0300",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by uh redesigning the signup basically flow with divya nair owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Growth Pod owning rollout.",
@@ -3589,7 +3629,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0405",
+      "record_id": "doc-0235",
+      "app": "Google Docs",
+      "raw_asr": "draft section for project falcon (prj-flc): um the basically goal of um this phase like is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and platform pod so owning rollout",
+      "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Platform Pod owning rollout.",
+      "timestamp": "2026-09-05T09:27:00.434673+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0410",
       "app": "Outlook",
       "raw_asr": "follow-up email after the meridian retail call: rahul iyer uh to send the project comet rollout plan by friday",
       "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
@@ -3597,7 +3645,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0336",
+      "record_id": "doc-0341",
       "app": "Google Docs",
       "raw_asr": "draft like section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and growth pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -3605,15 +3653,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0241",
-      "app": "Google Docs",
-      "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with vikram um shah decided to push the meridian retail pilot by one week to fix the edge cases platform pod found",
-      "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
-      "timestamp": "2026-09-05T10:43:00.890678+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0260",
+      "record_id": "doc-0265",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) timeline with vikram shah decided to push the meridian retail basically pilot by one week um to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Vikram Shah, decided to push the Meridian Retail pilot by one week to fix the edge cases Growth Pod found.",
@@ -3621,7 +3661,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0440",
+      "record_id": "mail-0445",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project falcon rahul iyer will be the uh point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Falcon, Rahul Iyer will be the point of contact on our side going forward.",
@@ -3629,7 +3669,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0296",
+      "record_id": "doc-0301",
       "app": "Google Docs",
       "raw_asr": "draft basically section for project comet (prj-cmt): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with ananya rao owning the design system updates and growth so pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Ananya Rao owning the design system updates and Growth Pod owning rollout.",
@@ -3645,14 +3685,6 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0350",
-      "app": "Outlook",
-      "raw_asr": "follow-up email after the meridian retail call: ananya rao basically to send the project falcon rollout plan by friday",
-      "llm_formatted": "Follow-up email after the Meridian Retail call: Ananya Rao to send the Project Falcon rollout plan by Friday.",
-      "timestamp": "2026-09-05T14:41:00.674443+00:00",
-      "extra_metadata": {}
-    },
-    {
       "record_id": "slk-0020",
       "app": "Slack",
       "raw_asr": "heads uh up divya nair and i are syncing on project falcon tomorrow like morning about the northwind um traders rollout",
@@ -3661,7 +3693,23 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0287",
+      "record_id": "mail-0450",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the northwind traders call: divya nair to send the uh project like falcon rollout basically plan by friday",
+      "llm_formatted": "Follow-up email after the Northwind Traders call: Divya Nair to send the Project Falcon rollout plan by Friday.",
+      "timestamp": "2026-09-05T16:09:00.694725+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0448",
+      "app": "Outlook",
+      "raw_asr": "email uh to rahul iyer: you know confirming our sync about project uh comet is moved to thursday at 3 pm please loop in growth pod before then",
+      "llm_formatted": "Email to Rahul Iyer: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
+      "timestamp": "2026-09-05T17:36:00.863027+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0292",
       "app": "Google Docs",
       "raw_asr": "draft section for project comet (prj-cmt): the goal of this phase is to basically reduce onboarding drop-off by redesigning the signup flow with like vikram shah owning you know the design system updates and growth so pod owning rollout",
       "llm_formatted": "Draft section for Project Comet (PRJ-CMT): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Vikram Shah owning the design system updates and Growth Pod owning rollout.",
@@ -3673,7 +3721,7 @@
       "app": "Slack",
       "raw_asr": "hey kivi actually change that format my slack updates as bullet points from now on",
       "llm_formatted": "Hey Kivi, actually change that, format my Slack updates as bullet points from now on.",
-      "timestamp": "2026-09-06T06:10:04+00:00",
+      "timestamp": "2026-09-06T06:40:26+00:00",
       "extra_metadata": {
         "is_preference_statement": true
       }
@@ -3687,7 +3735,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0419",
+      "record_id": "mail-0424",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet uh ananya rao will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -3703,7 +3751,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0322",
+      "record_id": "doc-0327",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard divya nair estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Divya Nair estimates two sprints, Platform Pod will need one more engineer.",
@@ -3743,19 +3791,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0384",
+      "record_id": "mail-0389",
       "app": "Outlook",
       "raw_asr": "email to ananya rao: confirming our sync about project comet is moved to thursday at 3 pm please loop in platform um pod before then",
       "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
       "timestamp": "2026-09-06T18:21:00.606532+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0351",
-      "app": "Outlook",
-      "raw_asr": "email to vikram shah: confirming our sync about project falcon uh is moved to thursday at 3 pm so please loop in platform pod before then",
-      "llm_formatted": "Email to Vikram Shah: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
-      "timestamp": "2026-09-06T18:36:00.197650+00:00",
       "extra_metadata": {}
     },
     {
@@ -3783,7 +3823,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0398",
+      "record_id": "mail-0403",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -3791,7 +3831,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0248",
+      "record_id": "doc-0253",
       "app": "Google Docs",
       "raw_asr": "prd note for project comet uh (prj-cmt): meridian retail has asked for a configurable dashboard vikram so shah estimates two sprints platform uh pod will need one more um engineer",
       "llm_formatted": "PRD note for Project Comet (PRJ-CMT): Meridian Retail has asked for a configurable dashboard, Vikram Shah estimates two sprints, Platform Pod will need one more engineer.",
@@ -3807,7 +3847,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0437",
+      "record_id": "mail-0357",
+      "app": "Outlook",
+      "raw_asr": "follow-up you know email after the meridian retail uh call: rahul iyer to send the project um comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Rahul Iyer to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-09-07T10:48:00.721957+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0442",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point of contact on our side going forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -3815,27 +3863,11 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0360",
-      "app": "Outlook",
-      "raw_asr": "follow-up email so after the northwind traders call: rahul iyer to send the project falcon rollout basically plan by friday",
-      "llm_formatted": "Follow-up email after the Northwind Traders call: Rahul Iyer to send the Project Falcon rollout plan by Friday.",
-      "timestamp": "2026-09-07T13:37:00.161054+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "doc-0268",
+      "record_id": "doc-0273",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) timeline with ananya rao decided to push the northwind traders pilot so by one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Ananya Rao, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
       "timestamp": "2026-09-07T15:50:00.855188+00:00",
-      "extra_metadata": {}
-    },
-    {
-      "record_id": "mail-0349",
-      "app": "Outlook",
-      "raw_asr": "email to northwind traders: sharing the updated timeline for project comet ananya rao will be the point of um contact on our side going like forward",
-      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
-      "timestamp": "2026-09-07T19:21:00.460670+00:00",
       "extra_metadata": {}
     },
     {
@@ -3847,7 +3879,15 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0329",
+      "record_id": "mail-0370",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: vikram shah to send the project comet rollout plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-09-08T15:42:00.377384+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "doc-0334",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this so phase is to reduce onboarding drop-off by redesigning the signup flow with divya nair owning the design system updates and you know platform pod um owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Divya Nair owning the design system updates and Platform Pod owning rollout.",
@@ -3855,7 +3895,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0434",
+      "record_id": "mail-0439",
       "app": "Outlook",
       "raw_asr": "email to meridian retail: sharing the updated timeline for project comet ananya rao will be the point of contact on our side going um forward",
       "llm_formatted": "Email to Meridian Retail: sharing the updated timeline for Project Comet, Ananya Rao will be the point of contact on our side going forward.",
@@ -3863,7 +3903,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0334",
+      "record_id": "doc-0339",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project like falcon (prj-flc) timeline with so ananya rao decided to push the meridian retail pilot by one week um to fix the edge cases platform pod found um",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao, decided to push the Meridian Retail pilot by one week to fix the edge cases Platform Pod found.",
@@ -3879,6 +3919,14 @@
       "extra_metadata": {}
     },
     {
+      "record_id": "mail-0354",
+      "app": "Outlook",
+      "raw_asr": "email to divya nair: confirming our sync about project comet is moved to thursday at 3 pm please loop in growth pod you know before then",
+      "llm_formatted": "Email to Divya Nair: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
+      "timestamp": "2026-09-09T08:48:00.506953+00:00",
+      "extra_metadata": {}
+    },
+    {
       "record_id": "slk-0143",
       "app": "Slack",
       "raw_asr": "standup note: project falcon is at 60 percent ananya rao is helping basically unblock the growth pod sprint",
@@ -3887,7 +3935,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0300",
+      "record_id": "doc-0305",
       "app": "Google Docs",
       "raw_asr": "prd note for project so falcon (prj-flc): northwind traders has asked for a configurable dashboard ananya rao estimates two sprints growth like pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Growth Pod will need one more engineer.",
@@ -3895,7 +3943,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0321",
+      "record_id": "doc-0326",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Platform Pod owning rollout.",
@@ -3911,7 +3959,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0441",
+      "record_id": "mail-0446",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet vikram like shah will be the point of contact on our you know side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -3919,7 +3967,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0269",
+      "record_id": "doc-0274",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project comet (prj-cmt) uh timeline with divya nair decided to push the northwind traders pilot by so one week to fix the edge cases platform pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Comet (PRJ-CMT) timeline with Divya Nair, decided to push the Northwind Traders pilot by one week to fix the edge cases Platform Pod found.",
@@ -3927,7 +3975,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0299",
+      "record_id": "doc-0304",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): northwind traders has asked for a configurable dashboard ananya rao estimates two sprints platform pod will need one more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Northwind Traders has asked for a configurable dashboard, Ananya Rao estimates two sprints, Platform Pod will need one more engineer.",
@@ -3951,7 +3999,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0302",
+      "record_id": "doc-0307",
       "app": "Google Docs",
       "raw_asr": "prd note for project falcon (prj-flc): meridian retail has um asked for a configurable dashboard rahul iyer estimates two sprints growth pod will need one um more engineer",
       "llm_formatted": "PRD note for Project Falcon (PRJ-FLC): Meridian Retail has asked for a configurable dashboard, Rahul Iyer estimates two sprints, Growth Pod will need one more engineer.",
@@ -3975,7 +4023,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0315",
+      "record_id": "doc-0320",
       "app": "Google Docs",
       "raw_asr": "draft section for project falcon (prj-flc): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow with rahul iyer owning the design system updates and platform pod owning rollout",
       "llm_formatted": "Draft section for Project Falcon (PRJ-FLC): the goal of this phase is to reduce onboarding drop-off by redesigning the signup flow, with Rahul Iyer owning the design system updates and Platform Pod owning rollout.",
@@ -3983,7 +4031,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "doc-0314",
+      "record_id": "doc-0319",
       "app": "Google Docs",
       "raw_asr": "meeting notes draft: discussed project falcon (prj-flc) like timeline with rahul iyer decided to push the northwind traders pilot by one week to fix the edge cases growth pod found",
       "llm_formatted": "Meeting notes draft: discussed Project Falcon (PRJ-FLC) timeline with Rahul Iyer, decided to push the Northwind Traders pilot by one week to fix the edge cases Growth Pod found.",
@@ -3991,7 +4039,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0389",
+      "record_id": "mail-0394",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet divya nair will like be the point so of contact you know on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
@@ -3999,7 +4047,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0388",
+      "record_id": "mail-0393",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet vikram shah will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Vikram Shah will be the point of contact on our side going forward.",
@@ -4007,7 +4055,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0426",
+      "record_id": "mail-0431",
       "app": "Outlook",
       "raw_asr": "email to ananya rao: confirming our sync about project falcon is moved to thursday at 3 pm please loop in growth pod before then",
       "llm_formatted": "Email to Ananya Rao: confirming our sync about Project Falcon is moved to Thursday at 3 PM, please loop in Growth Pod before then.",
@@ -4015,7 +4063,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0404",
+      "record_id": "mail-0409",
       "app": "Outlook",
       "raw_asr": "email to divya nair: confirming our sync about project comet is you know moved to thursday at 3 pm please loop in platform pod before then",
       "llm_formatted": "Email to Divya Nair: confirming our sync about Project Comet is moved to Thursday at 3 PM, please loop in Platform Pod before then.",
@@ -4023,7 +4071,7 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0381",
+      "record_id": "mail-0386",
       "app": "Outlook",
       "raw_asr": "email to northwind traders: sharing the updated timeline for project comet divya nair will be the point of contact on our side going forward",
       "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
@@ -4031,11 +4079,19 @@
       "extra_metadata": {}
     },
     {
-      "record_id": "mail-0421",
+      "record_id": "mail-0426",
       "app": "Outlook",
       "raw_asr": "follow-up email after the northwind traders call: vikram shah to send the project falcon rollout plan by friday",
       "llm_formatted": "Follow-up email after the Northwind Traders call: Vikram Shah to send the Project Falcon rollout plan by Friday.",
       "timestamp": "2026-09-10T17:01:00.404264+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0364",
+      "app": "Outlook",
+      "raw_asr": "follow-up email after the meridian retail call: vikram shah you know to send the project comet rollout like plan by friday",
+      "llm_formatted": "Follow-up email after the Meridian Retail call: Vikram Shah to send the Project Comet rollout plan by Friday.",
+      "timestamp": "2026-09-10T18:25:00.325922+00:00",
       "extra_metadata": {}
     },
     {
@@ -4044,6 +4100,14 @@
       "raw_asr": "heads up ananya rao and i are syncing on project falcon tomorrow morning about the northwind traders so rollout",
       "llm_formatted": "Heads up, Ananya Rao and I are syncing on Project Falcon tomorrow morning about the Northwind Traders rollout.",
       "timestamp": "2026-09-10T19:59:00.624940+00:00",
+      "extra_metadata": {}
+    },
+    {
+      "record_id": "mail-0369",
+      "app": "Outlook",
+      "raw_asr": "email to northwind traders: sharing the updated timeline for project comet divya nair will be the point of contact on our side going forward",
+      "llm_formatted": "Email to Northwind Traders: sharing the updated timeline for Project Comet, Divya Nair will be the point of contact on our side going forward.",
+      "timestamp": "2026-09-11T10:12:00.601600+00:00",
       "extra_metadata": {}
     }
   ]
