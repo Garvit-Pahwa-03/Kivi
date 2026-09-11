@@ -8,13 +8,20 @@ client = OpenAI(
 )
 
 
-def chat(messages: list[dict], temperature: float = 0.2, reasoning_effort=None) -> dict:
-    """Thin wrapper around Sarvam's OpenAI-compatible chat completions endpoint."""
+def chat(messages: list[dict], temperature: float = 0.2, reasoning: bool = False) -> dict:
+    """Thin wrapper around Sarvam's OpenAI-compatible chat completions endpoint.
+
+    reasoning=False (default) disables Sarvam's thinking mode via extra_body,
+    since most of our calls (extraction, tool routing, polishing) are latency/
+    cost-sensitive and don't need deep reasoning.
+    """
+    extra_body = {} if reasoning else {"reasoning_effort": None}
+
     response = client.chat.completions.create(
         model=settings.sarvam_chat_model,
         messages=messages,
         temperature=temperature,
-        reasoning_effort=reasoning_effort,  # None disables thinking mode (faster/cheaper)
+        extra_body=extra_body,
     )
     choice = response.choices[0].message
     usage = response.usage
