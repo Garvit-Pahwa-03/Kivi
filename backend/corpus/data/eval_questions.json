@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q1",
+    "category": "find_and_polish",
+    "question": "Hey Kivi, find my most recent Slack update about Project Falcon and polish it for a client email.",
+    "expects": {
+      "type": "answerable",
+      "must_reference": [
+        "Project Falcon"
+      ],
+      "app_context": "Slack"
+    }
+  },
+  {
+    "id": "q2",
+    "category": "find_and_polish",
+    "question": "Find the dictation I did in Google Docs about Project Comet's timeline and clean it up.",
+    "expects": {
+      "type": "answerable",
+      "must_reference": [
+        "Project Comet"
+      ],
+      "app_context": "Google Docs"
+    }
+  },
+  {
+    "id": "q3",
+    "category": "factual_recall",
+    "question": "What does PRJ-FLC stand for?",
+    "expects": {
+      "type": "answerable",
+      "gold_answer_contains": [
+        "Project Falcon",
+        "onboarding"
+      ]
+    }
+  },
+  {
+    "id": "q4",
+    "category": "factual_recall",
+    "question": "Who is the Engineering Lead I work with?",
+    "expects": {
+      "type": "answerable",
+      "gold_answer_contains": [
+        "Rahul Iyer"
+      ]
+    }
+  },
+  {
+    "id": "q5",
+    "category": "factual_recall_abstain",
+    "question": "What is the status of Project Nimbus?",
+    "expects": {
+      "type": "abstain",
+      "reason": "Project Nimbus never mentioned in corpus"
+    }
+  },
+  {
+    "id": "q6",
+    "category": "factual_recall_abstain",
+    "question": "What's Karan Bose's role on my team?",
+    "expects": {
+      "type": "abstain",
+      "reason": "Karan Bose never mentioned in corpus"
+    }
+  },
+  {
+    "id": "q7",
+    "category": "preference",
+    "question": "How should my Slack updates be formatted right now?",
+    "expects": {
+      "type": "answerable",
+      "gold_answer_contains": [
+        "bullet points"
+      ],
+      "note": "must reflect the LATER override, not the earlier paragraph preference"
+    }
+  },
+  {
+    "id": "q8",
+    "category": "period_recap",
+    "question": "What did I work on in the last week?",
+    "expects": {
+      "type": "answerable",
+      "must_cite_sources": true
+    }
+  },
+  {
+    "id": "q9",
+    "category": "decay",
+    "question": "What was that parking validation code I noted a while back?",
+    "expects": {
+      "type": "abstain",
+      "reason": "episodic note is >30 days old and never re-referenced, should have decayed"
+    }
+  },
+  {
+    "id": "q10",
+    "category": "decay_reset",
+    "question": "What was the Project Falcon budget ask I noted?",
+    "expects": {
+      "type": "answerable",
+      "gold_answer_contains": [
+        "40,000",
+        "40000"
+      ],
+      "note": "originally noted 38 days ago but re-referenced 10 days ago, so decay clock should have reset"
+    }
+  }
+]
