@@ -23,7 +23,10 @@ RNG = random.Random(42)  # fixed seed -> reproducible corpus
 OUT_DIR = Path(__file__).parent / "data"
 OUT_DIR.mkdir(exist_ok=True)
 
-CORPUS_END = datetime.now(timezone.utc).replace(microsecond=0)
+# Fixed anchor so the corpus is byte-for-byte reproducible across regenerations —
+# "now" was a reproducibility bug: it silently changed which record is "most recent"
+# every time the corpus was regenerated.
+CORPUS_END = datetime(2026, 9, 12, 12, 0, 0, tzinfo=timezone.utc)
 CORPUS_START = CORPUS_END - timedelta(days=45)
 
 FILLERS = ["um", "so", "like", "uh", "you know", "basically"]
@@ -119,12 +122,12 @@ for name_entry in TEAMMATES:
 
 # ---------- 2. Google Docs drafts (120) ----------
 DOC_TEMPLATES = [
-    "Draft section for {proj} ({acr}): the goal of this phase is to reduce onboarding drop-off by "
-    "redesigning the signup flow, with {teammate} owning the design system updates and {team} owning rollout.",
-    "PRD note for {proj} ({acr}): {client} has asked for a configurable dashboard, {teammate} estimates "
-    "two sprints, {team} will need one more engineer.",
-    "Meeting notes draft: discussed {proj} ({acr}) timeline with {teammate}, decided to push the {client} "
-    "pilot by one week to fix the edge cases {team} found.",
+    "Draft section for {proj} ({acr}): this project is {desc}, with {teammate} owning the design "
+    "system updates and {team} owning rollout.",
+    "PRD note for {proj} ({acr}): {client} has asked for a configurable dashboard as part of {desc}, "
+    "{teammate} estimates two sprints, {team} will need one more engineer.",
+    "Meeting notes draft: discussed {proj} ({acr}) timeline with {teammate}, decided to push the "
+    "{client} pilot by one week to fix the edge cases {team} found.",
 ]
 
 for i in range(120):
@@ -133,8 +136,8 @@ for i in range(120):
     team = RNG.choice(TEAMS)
     client = RNG.choice(CLIENTS)
     template = RNG.choice(DOC_TEMPLATES)
-    text = template.format(proj=proj["name"], acr=proj["acronym"], teammate=teammate["name"],
-                            team=team, client=client)
+    text = template.format(proj=proj["name"], acr=proj["acronym"], desc=proj["desc"],
+                            teammate=teammate["name"], team=team, client=client)
     ts = random_timestamp()
     records.append(mk_record(next_id("doc"), "Google Docs", text, ts))
 
@@ -204,6 +207,21 @@ with open(OUT_DIR / "dictations.json", "w") as f:
 
 print(f"Generated {len(records)} dictation records -> {OUT_DIR/'dictations.json'}")
 
+
+# ---------- Project definition statements (4) — guarantees acronym meanings are actually stated ----------
+PROJECT_DEF_TEMPLATES = [
+    "For context: {acr} is the internal code name for {name}, {desc}.",
+    "Quick note: {acr} refers to {name}, which is {desc}.",
+]
+
+for proj in PROJECTS:
+    template = RNG.choice(PROJECT_DEF_TEMPLATES)
+    text = template.format(acr=proj["acronym"], name=proj["name"], desc=proj["desc"])
+    ts1 = random_timestamp(days_ago_min=32, days_ago_max=44)
+    records.append(mk_record(next_id("note"), "Notes", text, ts1))
+    ts2 = random_timestamp(days_ago_min=3, days_ago_max=15)
+    records.append(mk_record(next_id("note"), "Notes", text, ts2))
+    
 # ---------- Eval question set ----------
 eval_questions = [
     # Use case 1: find & polish

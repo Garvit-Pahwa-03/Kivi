@@ -1,0 +1,50 @@
+[
+  {
+    "id": "h1", "category": "find_and_polish_paraphrase",
+    "question": "Pull up my last note in Google Docs about Project Falcon and tidy it up for a Slack post.",
+    "expects": {"type": "answerable", "must_reference": ["Project Falcon"]}
+  },
+  {
+    "id": "h2", "category": "find_and_polish_novel_direction",
+    "question": "Find the email I sent about the Project Comet rollout plan and clean it up as a Slack update.",
+    "expects": {"type": "answerable", "must_reference": ["Project Comet"]}
+  },
+  {
+    "id": "h3", "category": "factual_recall_paraphrase",
+    "question": "What's Divya Nair's job title?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Growth Analyst"]}
+  },
+  {
+    "id": "h4", "category": "factual_recall_paraphrase",
+    "question": "Tell me what PRJ-CMT refers to.",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Project Comet"]}
+  },
+  {
+    "id": "h5", "category": "factual_recall_abstain_novel",
+    "question": "What's the WBS number for the marketing project?",
+    "expects": {"type": "abstain", "reason": "no such entity ('marketing project', 'WBS number') ever mentioned in corpus"}
+  },
+  {
+    "id": "h6", "category": "preference_query_untaught_app",
+    "question": "How should my Notes be formatted right now?",
+    "expects": {"type": "abstain", "reason": "no preference for Notes has ever been taught in the corpus"}
+  },
+  {
+    "id": "h7", "category": "preference_teach_then_query",
+    "turns": [
+      "Hey Kivi, from now on format my Notes as short bullet reminders, not full sentences.",
+      "How should my Notes be formatted right now?"
+    ],
+    "expects": {"type": "answerable", "gold_answer_contains": ["bullet"]}
+  },
+  {
+    "id": "h8", "category": "period_recap_paraphrase",
+    "question": "Give me a rundown of what I've been doing this past week.",
+    "expects": {"type": "answerable", "must_cite_sources": true}
+  },
+  {
+    "id": "h9", "category": "decay_reset_paraphrase",
+    "question": "How much budget did I end up asking for on Falcon?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["40,000", "40000"]}
+  }
+]

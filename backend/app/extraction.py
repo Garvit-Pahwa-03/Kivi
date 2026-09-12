@@ -21,7 +21,9 @@ is explicitly out of scope and must never appear in your output, under any categ
   "summary": one sentence}.
 
 - "preference": explicit formatting/tone/structural rules the user wants applied, scoped to the \
-  app they were using. Each item: {"scope": app name, "key": short identifier, "value": the rule}.
+  app they were using. "key" MUST be exactly one of: "formatting_style", "tone", "message_length", \
+  "structure" — pick the closest match, never invent a new key. \
+  Each item: {"scope": app name, "key": one of the four fixed keys above, "value": the rule}.
 
 Be conservative. Most ordinary status updates produce ZERO factual items — status/progress/blockers \
 belong in episodic, not factual. If nothing qualifies in a category, return an empty list.
@@ -52,6 +54,13 @@ Dictation: "Project Falcon is blocked until Vikram Shah finishes the API contrac
 -> episodic: [{"topic_key": "project_falcon_blocker", "summary": "Blocked on Project Falcon until \
 Vikram Shah finishes the API contract."}]
 (A current blocker is transient — it will be resolved and become false. Episodic, not factual.)
+
+Dictation: "Scheduled a sync with Rahul Iyer on Project Comet regarding the Meridian Retail rollout."
+-> factual: []
+-> episodic: [{"topic_key": "project_comet_meridian_sync", "summary": "Sync scheduled with Rahul Iyer \
+on Project Comet regarding the Meridian Retail rollout."}]
+(Being named in a meeting/task is not a role statement — it says nothing about what Rahul Iyer's job \
+IS. This belongs in episodic, and must never overwrite a role: fact.)
 
 Respond with ONLY a JSON object, no prose, no markdown fences, in this exact shape:
 {"factual": [...], "episodic": [...], "preference": [...]}

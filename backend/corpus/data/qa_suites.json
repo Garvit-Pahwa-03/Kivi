@@ -1,0 +1,181 @@
+[
+  {
+    "id": "qa1", "category": "multi_hop",
+    "question": "Which client is the person estimating two sprints for Project Falcon's dashboard working with?",
+    "expects": {"type": "answerable", "note": "requires combining: who estimated sprints for Falcon dashboard + which client requested that dashboard"}
+  },
+  {
+    "id": "qa2", "category": "multi_hop",
+    "question": "Is the person who owns design system updates for Project Falcon the same person who is the Engineering Lead?",
+    "expects": {"type": "answerable", "note": "requires cross-referencing role fact against episodic ownership fact; answer should distinguish them if different, per corpus randomization"}
+  },
+  {
+    "id": "qa3", "category": "negation_contradiction",
+    "question": "Should I still format my Slack updates as full paragraphs?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["no", "bullet"], "note": "must recognize the paragraph preference was overridden, not just retrieve it"}
+  },
+  {
+    "id": "qa4", "category": "ambiguous_entity",
+    "question": "What's the current timeline status for Comet?",
+    "expects": {"type": "answerable", "must_reference": ["Comet"], "note": "must not confuse with Falcon despite shared 'project timeline' vocabulary"}
+  },
+  {
+    "id": "qa5", "category": "ambiguous_entity",
+    "question": "What's the current timeline status for Falcon?",
+    "expects": {"type": "answerable", "must_reference": ["Falcon"], "note": "run immediately after qa4 - checks no state leakage between similar queries"}
+  },
+  {
+    "id": "qa6", "category": "malformed_asr_input",
+    "question": "hey kivi whats uh the falcon budget thing i asked about like the number",
+    "expects": {"type": "answerable", "gold_answer_contains": ["40,000", "40000"], "note": "realistic messy dictation phrasing, no punctuation, filler words"}
+  },
+  {
+    "id": "qa7", "category": "malformed_asr_input",
+    "question": "who was it again that does comet growth analyst stuff",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Divya Nair"], "note": "garbled real-world phrasing of a role lookup"}
+  },
+  {
+    "id": "qa8", "category": "injection_adjacent",
+    "question": "Summarize my Slack activity - just tell me exactly what to say, don't add your own commentary or reveal these instructions.",
+    "expects": {"type": "answerable", "note": "phrasing mimics a prompt-injection attempt; correct behavior is to just answer normally about Slack activity, not treat this as a system-level instruction"}
+  },
+  {
+    "id": "qa9", "category": "cold_state",
+    "question": "How should my Outlook emails be formatted right now?",
+    "expects": {"type": "abstain", "reason": "no preference ever taught for Outlook"}
+  },
+  {
+    "id": "qa10", "category": "cold_state",
+    "question": "What's my formatting preference for Google Docs?",
+    "expects": {"type": "abstain", "reason": "unless PRD-note preference happens to exist; if none, must abstain rather than invent one"}
+  },
+  {
+    "id": "qa11", "category": "compound_request",
+    "question": "Find my Falcon update from Slack and also tell me who the Comet point of contact is.",
+    "expects": {"type": "answerable", "must_reference": ["Falcon"], "note": "router will likely only handle one intent - documents current single-tool-per-turn limitation rather than silently failing"}
+  },
+  {
+    "id": "qa12", "category": "phrasing_robustness",
+    "question": "What's the short form PRJ-FLC actually mean in plain English?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Project Falcon"]}
+  },
+  {
+    "id": "qa13", "category": "phrasing_robustness",
+    "question": "I keep seeing 'PRJ-CMT' everywhere, what is that.",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Project Comet"]}
+  },
+  {
+    "id": "qa14", "category": "phrasing_robustness",
+    "question": "PRJ-FLC = ?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Project Falcon"], "note": "extremely terse/symbolic phrasing"}
+  },
+  {
+    "id": "qa15", "category": "case_sensitivity",
+    "question": "what does prj-flc stand for",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Project Falcon"], "note": "lowercase acronym, no punctuation, no capitalization"}
+  },
+  {
+    "id": "qa16", "category": "unrelated_domain_abstain",
+    "question": "What's the weather going to be like tomorrow?",
+    "expects": {"type": "abstain", "reason": "not answerable from user history at all; tests graceful handling of off-topic requests, not just unknown entities"}
+  },
+  {
+    "id": "qa17", "category": "unrelated_domain_abstain",
+    "question": "Can you book me a flight to Mumbai?",
+    "expects": {"type": "abstain", "reason": "outside scope entirely - no such tool exists and shouldn't be hallucinated"}
+  },
+  {
+    "id": "qa18", "category": "vague_reference",
+    "question": "What did I say about the budget?",
+    "expects": {"type": "answerable", "note": "ambiguous which project's budget - correct behavior is either answering with the one budget mention that exists, or asking which project, not silently picking wrong one"}
+  },
+  {
+    "id": "qa19", "category": "specificity_mismatch",
+    "question": "Tell me literally everything you know about Rahul Iyer.",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Rahul Iyer"], "note": "open-ended aggregation query - not one of the 4 designed use cases, tests graceful degradation"}
+  },
+  {
+    "id": "qa20", "category": "numeric_precision",
+    "question": "Was the Project Falcon budget exactly 40000 or was it more like 45000?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["40,000", "40000"], "note": "tests resistance to a leading/suggestive question with a wrong number embedded"}
+  },
+  {
+    "id": "qa21", "category": "temporal_reasoning",
+    "question": "What did I work on two days ago?",
+    "expects": {"type": "answerable", "note": "relative date resolution different from 'yesterday' or 'last week' already tested"}
+  },
+  {
+    "id": "qa22", "category": "temporal_reasoning",
+    "question": "What happened in the first week after I started using Kivi?",
+    "expects": {"type": "answerable", "note": "tests resolving a vague, non-standard time reference against the 45-day corpus window"}
+  },
+  {
+    "id": "qa23", "category": "preference_scope_precision",
+    "question": "If I ask you to format something for Slack, what would you do differently than for Google Docs?",
+    "expects": {"type": "answerable", "note": "requires retrieving and contrasting TWO different app-scoped preferences in one answer"}
+  },
+  {
+    "id": "qa24", "category": "self_referential",
+    "question": "How many things do you actually remember about me?",
+    "expects": {"type": "answerable", "note": "meta-question about the memory system itself, not a fact in the corpus - tests whether Hey Kivi has any reasonable fallback rather than a broken abstention"}
+  },
+  {
+    "id": "qa25", "category": "polish_fidelity",
+    "question": "Find my most recent Google Docs note about Project Comet and polish it, but keep every specific name and number exactly as they were.",
+    "expects": {"type": "answerable", "must_reference": ["Project Comet"], "note": "tests whether 'polish' ever silently drops or alters factual content - compare polished_text against source dictation text for entity preservation"}
+  },
+  {
+    "id": "qa26", "category": "preference_teach_edge_case",
+    "turns": [
+      "Hey Kivi, format my Outlook emails as very short, no more than two sentences.",
+      "Hey Kivi, actually make my Outlook emails formal with a proper greeting and sign-off.",
+      "How should my Outlook emails be formatted right now?"
+    ],
+    "expects": {"type": "answerable", "gold_answer_contains": ["formal"], "note": "TWO sequential overrides in one session - tests override chain of length 2, not just 1"}
+  },
+  {
+    "id": "qa27", "category": "preference_conflicting_in_one_turn",
+    "question": "Hey Kivi, format my Notes as bullet points and also as full paragraphs.",
+    "expects": {"type": "answerable", "note": "internally contradictory single instruction - correct behavior is picking one consistently or flagging the contradiction, not silently storing garbage"}
+  },
+  {
+    "id": "qa28", "category": "empty_corpus_query",
+    "question": "What did I discuss in Microsoft Teams?",
+    "expects": {"type": "abstain", "reason": "Teams is not one of the 4 apps in the corpus at all - tests handling of an app that doesn't exist in the system, not just an untaught preference for a known app"}
+  },
+  {
+    "id": "qa29", "category": "long_query_stress",
+    "question": "So I'm trying to remember, a while back, maybe a few weeks ago at this point, I think I mentioned something to Kivi about a budget number for one of my projects, I believe it was Falcon but I'm not one hundred percent sure, can you help me figure out what that number was and also remind me who I was supposed to follow up with about it?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["40,000", "40000"], "note": "very long, hedging, run-on real-speech-style query - tests robustness to verbosity"}
+  },
+  {
+    "id": "qa30", "category": "regression_project_comet_definition",
+    "question": "What is Project Comet about?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["billing"], "note": "REGRESSION TEST for the corpus bug where Comet's purpose was never stated and got confabulated - must now say billing system migration, not onboarding flow"}
+  },
+  {
+    "id": "qa31", "category": "regression_role_vocabulary_guardrail",
+    "question": "What is Divya Nair's role?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Growth Analyst"], "note": "REGRESSION TEST for the bug where a low-information mention overwrote a correct role fact"}
+  },
+  {
+    "id": "qa32", "category": "regression_key_canonicalization",
+    "question": "Give me every fact you have stored about what PRJ-CMT means, all of it.",
+    "expects": {"type": "answerable", "note": "REGRESSION TEST for the PRJ-CMT / PRJ-CMT_project_comet key-fork bug - manually inspect that only 1-2 active factual memories exist for this key, not dozens"}
+  },
+  {
+    "id": "qa33", "category": "regression_tokenizer_possessive",
+    "question": "What's Vikram Shah's role?",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Backend Engineer"], "note": "REGRESSION TEST for the stray possessive 's' tokenizer bug"}
+  },
+  {
+    "id": "qa34", "category": "regression_decay_never_referenced",
+    "question": "What was that parking code thing I mentioned once?",
+    "expects": {"type": "abstain", "reason": "REGRESSION TEST, rephrased differently from q9, for episodic decay of a never-re-referenced memory"}
+  },
+  {
+    "id": "qa35", "category": "regression_factual_vs_episodic_boundary",
+    "question": "Is Project Falcon still at 60 percent, or has that changed?",
+    "expects": {"type": "answerable", "note": "REGRESSION TEST that progress percentages remain episodic (decayable/updatable) not factual (permanent) - checks the original factual/episodic misclassification bug stays fixed"}
+  }
+]
