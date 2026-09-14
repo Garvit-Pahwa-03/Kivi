@@ -19,14 +19,15 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    # 1. Add the missing column first
+    # 1. Add columns matching models.py naming
     op.add_column('users', sa.Column('email', sa.String(), nullable=True))
-    op.add_column('users', sa.Column('hashed_password', sa.String(), nullable=True))
+    op.add_column('users', sa.Column('password_hash', sa.String(), nullable=True))
 
-    # 2. Add the unique constraint AFTER the column exists
+    # 2. Add unique constraint after email column creation
     op.create_unique_constraint('uq_users_email', 'users', ['email'])
 
 
 def downgrade() -> None:
-    with op.batch_alter_table('users', schema=None) as batch_op:
-        batch_op.drop_constraint('uq_users_email', type_='unique')
+    op.drop_constraint('uq_users_email', 'users', type_='unique')
+    op.drop_column('users', 'password_hash')
+    op.drop_column('users', 'email')
