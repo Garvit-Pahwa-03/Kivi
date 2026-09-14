@@ -16,6 +16,16 @@ FastAPI backend with a SQLite database, Sarvam's `sarvam-105b` doing all extract
 generation, deterministic (non-embedding) retrieval, and a React frontend with five
 working surfaces.
 
+## Live demo
+
+- **App:** https://kivi-theta.vercel.app
+- **API:** https://kivi-kkjd.onrender.com
+
+Sign up with any email/password to get your own isolated account — there is no seeded
+demo login, since the corpus is tied to whichever account you create. See RUN.md for the
+corpus-import procedure if you want your account populated with the test dataset.
+
+
 ## Product position (recap from Part 1)
 
 - **Two modes, one boundary.** Ordinary dictation stays passive. Hey Kivi is the only
