@@ -4,6 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.llm_client import chat
 from app.routers import ingest, debug, hey_kivi
+from app.routers import ingest, debug, hey_kivi, shortcuts, dictate
+from app.routers import ingest, debug, hey_kivi, shortcuts, dictate, auth as auth_router
+
 
 app = FastAPI(title="Kivi Semantic Memory API")
 
@@ -17,6 +20,9 @@ app.add_middleware(
 app.include_router(ingest.router)
 app.include_router(debug.router)
 app.include_router(hey_kivi.router)
+app.include_router(shortcuts.router)
+app.include_router(dictate.router)
+app.include_router(auth_router.router)
 
 
 @app.get("/health")

@@ -8,8 +8,8 @@ class Settings(BaseSettings):
 
     database_url: str = "sqlite:///./kivi.db"
     cors_origin: str = "http://localhost:5173"
+    jwt_secret_key: str = "dev-only-insecure-secret-change-in-prod"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
-
 
 settings = Settings()

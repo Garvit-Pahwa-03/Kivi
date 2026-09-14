@@ -9,11 +9,29 @@ def tool_search_episodic(db, user_id, keywords=None, app=None, start=None, end=N
 
 
 def tool_recall_fact(db, user_id, query, top_k=3):
+    from app import shortcuts as shortcuts_svc
+    from app.retrieval import _rank_by_overlap
+
     factual = retrieval.search_memories(db, user_id, query, mem_type=models.MemoryType.factual, top_k=top_k)
     episodic = retrieval.search_memories(db, user_id, query, mem_type=models.MemoryType.episodic, top_k=top_k)
-    combined = sorted(factual + episodic, key=lambda r: -(r["score"] or 0))[:top_k]
+
+    shortcut_results = []
+    all_shortcuts = shortcuts_svc.list_shortcuts(db, user_id)
+    if all_shortcuts:
+        ranked = _rank_by_overlap(
+            query, all_shortcuts, lambda s: s.trigger_phrase + " " + s.expansion_text,
+            lambda s: s.updated_at, top_k,
+        )
+        shortcut_results = [{
+            "memory_id": s.id, "type": "shortcut", "scope": s.trigger_phrase,
+            "content": "\"" + s.trigger_phrase + "\" expands to: " + s.expansion_text,
+            "score": round(score, 2), "reason": "matched terms " + str(sorted(overlap)),
+        } for s, overlap, score, _ in ranked]
+
+    combined = sorted(factual + episodic + shortcut_results, key=lambda r: -(r["score"] or 0))[:top_k]
     for r in combined:
-        log_event(db, r["memory_id"], models.EventAction.retrieved, f"retrieved for Hey Kivi query: {query}")
+        if r["type"] != "shortcut":
+            log_event(db, r["memory_id"], models.EventAction.retrieved, "retrieved for Hey Kivi query: " + query)
     db.commit()
     return {"found": len(combined) > 0, "results": combined}
 
@@ -90,3 +108,23 @@ Return ONLY the polished text, nothing else."""
         "preferences_applied": pref_result["results"],
         "usage": {"prompt_tokens": result["prompt_tokens"], "completion_tokens": result["completion_tokens"]},
     }
+    
+def tool_recall_shortcut(db, user_id, query, top_k=3):
+    from app import shortcuts as shortcuts_svc
+    from app.retrieval import _rank_by_overlap
+
+    all_shortcuts = shortcuts_svc.list_shortcuts(db, user_id)
+    if not all_shortcuts:
+        return {"found": False, "results": []}
+
+    ranked = _rank_by_overlap(
+        query, all_shortcuts,
+        lambda s: s.trigger_phrase + " " + s.expansion_text,
+        lambda s: s.updated_at,
+        top_k,
+    )
+    results = [{
+        "shortcut_id": s.id, "trigger_phrase": s.trigger_phrase, "expansion_text": s.expansion_text,
+        "score": round(score, 2), "reason": "matched terms " + str(sorted(overlap)),
+    } for s, overlap, score, _ in ranked]
+    return {"found": len(results) > 0, "results": results}

@@ -131,7 +131,7 @@ def main():
         score = score_result(q, result)
 
         row = {
-            "id": q["id"], "category": q["category"],
+            "id": q["id"], "category": q.get("category", "uncategorized"),
             "question": result["_asked_question"],
             "setup_turns": result["_setup_turns"],
             "expects": q["expects"], "response": result["response"],
@@ -145,7 +145,7 @@ def main():
         }
         results.append(row)
         status = "PASS" if row["passed"] else "FAIL"
-        print(f"  [{status}] {q['id']} ({q['category']}): {result['_asked_question'][:60]}...")
+        print(f"  [{status}] {q['id']} ({q.get('category', 'uncategorized')}): {result['_asked_question'][:60]}...")
 
     size_after = db_path.stat().st_size if db_path.exists() else 0
     passed_count = sum(1 for r in results if r["passed"])

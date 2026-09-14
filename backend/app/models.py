@@ -44,6 +44,8 @@ class User(Base):
     __tablename__ = "users"
     id = Column(String, primary_key=True, default=_uuid)
     name = Column(String, nullable=False)
+    email = Column(String, unique=True, nullable=True)
+    password_hash = Column(String, nullable=True)
     created_at = Column(DateTime, default=_now)
 
     dictations = relationship("Dictation", back_populates="user")
@@ -124,3 +126,16 @@ class HeyKiviTurn(Base):
     prompt_tokens = Column(Integer, nullable=True)
     completion_tokens = Column(Integer, nullable=True)
     created_at = Column(DateTime, default=_now)
+    
+class Shortcut(Base):
+    """A user-taught phrase-trigger -> expansion-text substitution, applied at
+    dictation time (not Hey Kivi retrieval). Deterministic exact-phrase matching,
+    not scored search - this is why it is a separate table from Memory."""
+    __tablename__ = "shortcuts"
+    id = Column(String, primary_key=True, default=_uuid)
+    user_id = Column(String, ForeignKey("users.id"), nullable=False)
+    trigger_phrase = Column(String, nullable=False)
+    expansion_text = Column(Text, nullable=False)
+    active = Column(Integer, default=1)  # 1/0, avoids a second enum for a simple flag
+    created_at = Column(DateTime, default=_now)
+    updated_at = Column(DateTime, default=_now)

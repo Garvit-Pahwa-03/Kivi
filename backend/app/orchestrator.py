@@ -12,6 +12,14 @@ which single tool best serves it, and extract the parameters that tool needs.
 
 Today's date/time (UTC) is: {now}
 
+IMPORTANT: "preference_teach" applies ONLY when the user gives an explicit, actionable
+formatting/tone/structure instruction tied to a named app (e.g. "format my Slack updates
+as bullet points"). Questions ABOUT the product itself - how it works, what it can do, how
+to make it do something automatically - are never preference instructions, even if they
+mention words like "remember" or "format". If no tool clearly fits a request, do not guess;
+respond with {{"tool": null, "params": {{}}}} so the system abstains rather than inventing
+a stored preference the user never actually stated.
+
 Available tools:
 
 1. "find_and_polish" — user wants to locate a specific past dictation and reformat/polish it.
@@ -37,6 +45,10 @@ distinctive nouns/terms verbatim rather than paraphrasing them away}}
 5. "period_recap" - user wants a summary of what they worked on over a time period.
    params: {{"start": ISO datetime, "end": ISO datetime, "keywords": optional topic filter or null, "app": one of "Slack", "Google Docs", "Outlook", "Notes" if the user names a specific app, else null. If the user names an app that is not one of those four (for example Teams or Zoom), set app to "UNKNOWN_APP".}}
 
+6. "recall_shortcut" - user is asking what a shortcut does, or what phrase triggers a
+   given piece of text they have taught Kivi to expand.
+   params: {{"query": the question, restated as a short search phrase}}
+   
 Respond with ONLY JSON: {{"tool": "...", "params": {{...}}}}
 """
 
@@ -79,7 +91,56 @@ def handle_request(db: Session, user: models.User, request_text: str) -> dict:
     now = datetime.now(timezone.utc)
     total_prompt_tokens = 0
     total_completion_tokens = 0
+    
+    from app import shortcuts as shortcuts_svc
+    existing_shortcuts = shortcuts_svc.list_shortcuts(db, user.id)
+    normalized_input = request_text.strip().lower().rstrip("?.!")
+    matched_shortcut = None
+    for sc in existing_shortcuts:
+        trig = sc.trigger_phrase.strip().lower()
+        # Only fast-path when the ENTIRE message is essentially just the trigger phrase
+        # (allowing a few extra words like "what does X do") - never when the trigger is
+        # embedded inside a longer, unrelated request. That case falls through to the
+        # normal router instead of being silently hijacked.
+        is_bare_trigger = normalized_input == trig
+        is_short_lookup = trig in normalized_input and len(normalized_input) <= len(trig) + 20
+        if is_bare_trigger or is_short_lookup:
+            matched_shortcut = sc
+            break
 
+    if matched_shortcut:
+        evidence = "saying \"" + matched_shortcut.trigger_phrase + "\" expands to: " + matched_shortcut.expansion_text
+        answer_result = chat([
+            {"role": "system", "content": ANSWER_SYSTEM_PROMPT},
+            {"role": "user", "content": "User request: " + request_text + "\n\nEvidence:\n" + evidence},
+        ], temperature=0.2)
+        response_text = (answer_result["content"] or "").strip()
+        latency_ms = int((time.time() - t0) * 1000)
+
+        turn = models.HeyKiviTurn(
+            user_id=user.id, request_text=request_text,
+            tools_called=["recall_shortcut"], memories_used=[matched_shortcut.id],
+            response_text=response_text, abstained=0,
+            latency_ms=latency_ms,
+            prompt_tokens=answer_result["prompt_tokens"], completion_tokens=answer_result["completion_tokens"],
+        )
+        db.add(turn)
+        db.commit()
+        db.refresh(turn)
+
+        return {
+            "turn_id": turn.id, "response": response_text, "abstained": False,
+            "tool": "recall_shortcut", "params": {"matched_trigger": matched_shortcut.trigger_phrase},
+            "memories_used": [matched_shortcut.id],
+            "tool_output": {"recall_shortcut": {"found": True, "results": [{
+                "shortcut_id": matched_shortcut.id, "trigger_phrase": matched_shortcut.trigger_phrase,
+                "expansion_text": matched_shortcut.expansion_text, "score": None,
+                "reason": "direct match: input text matches a taught shortcut trigger phrase",
+            }]}},
+            "latency_ms": latency_ms,
+            "prompt_tokens": answer_result["prompt_tokens"], "completion_tokens": answer_result["completion_tokens"],
+        }
+    
     router_result = chat([
         {"role": "system", "content": ROUTER_SYSTEM_PROMPT.format(now=now.isoformat())},
         {"role": "user", "content": request_text},
@@ -147,7 +208,17 @@ def handle_request(db: Session, user: models.User, request_text: str) -> dict:
             memories_used = [e["memory_id"] for e in result["episodic_memories"]] + \
                              [d["dictation_id"] for d in result["dictations"]]
         tool_output = {"summarize_period": result}
-
+    elif tool_name == "recall_shortcut":
+        search_query = params.get("query", "") + " " + request_text
+        result = tools.tool_recall_shortcut(db, user.id, search_query)
+        if result["found"]:
+            evidence = "\n".join(
+                "- saying \"" + r["trigger_phrase"] + "\" expands to: " + r["expansion_text"]
+                for r in result["results"]
+            )
+            memories_used = [r["shortcut_id"] for r in result["results"]]
+        tool_output = {"recall_shortcut": result}
+        
     else:
         tool_output = {"error": f"unrecognized tool: {tool_name}"}
 

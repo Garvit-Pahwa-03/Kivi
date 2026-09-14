@@ -1,0 +1,77 @@
+[
+  {
+    "id": "nu1",
+    "question": "hey so what's going on with falcon these days",
+    "expects": {"type": "answerable", "note": "vague check-in phrasing, no explicit ask for a fact/timeline/status - just casual"}
+  },
+  {
+    "id": "nu2",
+    "question": "can u remind me who's doing what on comet",
+    "expects": {"type": "answerable", "note": "texting-style abbreviations, vague 'who's doing what' instead of a clean factual question"}
+  },
+  {
+    "id": "nu3",
+    "question": "did we ever figure out the money situation for falcon",
+    "expects": {"type": "answerable", "gold_answer_contains": ["40,000", "40000"], "note": "'money situation' instead of 'budget' - no keyword overlap with corpus vocabulary"}
+  },
+  {
+    "id": "nu4",
+    "question": "i need to send something to karan about the meridian thing, what have we got",
+    "expects": {"type": "answerable", "note": "run-on, ambiguous 'the meridian thing', implicit ask to gather info without naming a tool-shaped action"}
+  },
+  {
+    "id": "nu5",
+    "question": "whats rahuls deal",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Rahul Iyer"], "note": "extremely casual, no question mark, slang 'deal' meaning role/involvement"}
+  },
+  {
+    "id": "nu6",
+    "question": "is there anything i'm forgetting about this week",
+    "expects": {"type": "answerable", "note": "vague open-ended 'anything i'm forgetting' - no explicit time range stated as a number"}
+  },
+  {
+    "id": "nu7",
+    "question": "can you clean this up for slack: finished the falcon review, on track for the demo",
+    "expects": {"type": "answerable", "note": "user pastes raw text to polish rather than asking Kivi to find a past dictation - different from the designed find_and_polish flow"}
+  },
+  {
+    "id": "nu8",
+    "question": "not sure if i already told you this but divya is the growth person right",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Growth Analyst"], "note": "hedging phrasing with embedded self-doubt, casual 'growth person' instead of 'Growth Analyst'"}
+  },
+  {
+    "id": "nu9",
+    "question": "quick one - comet or falcon, which one has the northwind deal",
+    "expects": {"type": "answerable", "note": "either-or comparison phrasing, informal 'deal' for client relationship, tests handling of a choice-between-two-entities question"}
+  },
+  {
+    "id": "nu10",
+    "question": "ugh i forgot the acronym thing for the billing project again",
+    "expects": {"type": "answerable", "gold_answer_contains": ["PRJ-CMT", "Comet"], "note": "reverse lookup - user knows the DESCRIPTION (billing project) and wants the acronym, opposite direction from every acronym question tested so far"}
+  },
+  {
+    "id": "nu11",
+    "question": "sorry me again, when's the falcon sync supposed to happen",
+    "expects": {"type": "answerable", "note": "casual self-interruption phrasing, asks about a meeting time which spans multiple similar records"}
+  },
+  {
+    "id": "nu12",
+    "question": "what do you know about me so far",
+    "expects": {"type": "answerable", "note": "genuinely ambiguous - could mean facts/preferences/episodes broadly; tests whether the system has ANY reasonable behavior for a first-time-user-style exploratory question, since this is a very natural first thing a real user would ask"}
+  },
+  {
+    "id": "nu13",
+    "question": "just checking - are my slack messages still doing the bullet point thing",
+    "expects": {"type": "answerable", "gold_answer_contains": ["bullet"], "note": "casual confirmation-seeking phrasing rather than a direct question about the preference"}
+  },
+  {
+    "id": "nu14",
+    "question": "how do i get you to remember stuff automatically",
+    "expects": {"type": "abstain", "reason": "meta question about how the product works, not answerable from user history - realistic first-time-user confusion about the system itself"}
+  },
+  {
+    "id": "nu15",
+    "question": "whats up with that vikram guy, what does he even do here",
+    "expects": {"type": "answerable", "gold_answer_contains": ["Backend Engineer"], "note": "dismissive/casual tone, 'that vikram guy' instead of full name, 'what does he even do' instead of 'role'"}
+  }
+]

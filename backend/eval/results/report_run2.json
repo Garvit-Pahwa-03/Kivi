@@ -1,35 +1,120 @@
 {
-  "questions_file": "corpus\\data\\held_out_questions.json",
-  "run_at": "2026-09-13T18:43:19.974120+00:00",
-  "total_questions": 9,
+  "questions_file": "corpus\\data\\eval_questions.json",
+  "run_at": "2026-09-13T06:39:29.754798+00:00",
+  "total_questions": 10,
   "passed": 7,
-  "failed": 2,
-  "pass_rate": 0.778,
-  "avg_latency_ms": 974.7,
-  "total_cost_inr": 0.4973,
-  "db_size_bytes": 1191936,
+  "failed": 3,
+  "pass_rate": 0.7,
+  "avg_latency_ms": 1367.8,
+  "total_cost_inr": 0.4833,
+  "db_size_bytes": 1048576,
   "db_growth_bytes_this_run": 16384,
   "results": [
     {
-      "id": "h1",
-      "category": "find_and_polish_paraphrase",
-      "question": "Pull up my last note in Google Docs about Project Falcon and tidy it up for a Slack post.",
+      "id": "q1",
+      "category": "find_and_polish",
+      "question": "Hey Kivi, find my most recent Slack update about Project Falcon and polish it for a client email.",
       "setup_turns": [],
       "expects": {
         "type": "answerable",
         "must_reference": [
           "Project Falcon"
-        ]
+        ],
+        "app_context": "Slack"
+      },
+      "response": "I don't have any Slack updates about Project Falcon in your history. The only Slack-related entry I found is a 2026-09-07 dictation where you asked me to format future Slack updates as bullet points. I can't polish something that isn't there.",
+      "abstained": false,
+      "tool": "find_and_polish",
+      "params": {
+        "keywords": "Project Falcon",
+        "app": "Slack",
+        "target_app": "Outlook"
+      },
+      "tool_output": {
+        "search": {
+          "found": true,
+          "results": [
+            {
+              "dictation_id": "82585e28-5829-446d-bf2a-f3f03b26b70f",
+              "record_id": "slk-0222",
+              "app": "Slack",
+              "timestamp": "2026-09-07T12:00:00",
+              "text": "Hey Kivi, actually change that, format my Slack updates as bullet points from now on.",
+              "score": 3.3,
+              "reason": "IDF-weighted match on terms ['hey', 'kivi', 'slack'] (score=3.3)"
+            }
+          ]
+        },
+        "polish": {
+          "polished_text": "Dear Kivi,\n\nPlease ensure that my Slack updates are formatted as bullet points going forward.\n\nBest regards,",
+          "preferences_applied": [
+            {
+              "memory_id": "ec3fb674-fcdd-42b2-8f9a-ee9fa1865a65",
+              "type": "preference",
+              "scope": "Outlook::email_formality",
+              "content": "Use a formal greeting and sign-off in Outlook emails.",
+              "score": null,
+              "reason": "scope-matched (prefix 'Outlook::'), no keyword ranking needed"
+            },
+            {
+              "memory_id": "905f89d9-3ea8-4c18-b051-e722443069e3",
+              "type": "preference",
+              "scope": "Outlook::formatting_style",
+              "content": "very short, no more than two sentences",
+              "score": null,
+              "reason": "scope-matched (prefix 'Outlook::'), no keyword ranking needed"
+            },
+            {
+              "memory_id": "f913e443-3beb-400a-a487-8585832e95e3",
+              "type": "preference",
+              "scope": "Outlook::email_formatting",
+              "content": "Use a formal greeting and sign-off in all emails",
+              "score": null,
+              "reason": "scope-matched (prefix 'Outlook::'), no keyword ranking needed"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 110,
+            "completion_tokens": 25
+          }
+        }
+      },
+      "memories_used": [
+        "82585e28-5829-446d-bf2a-f3f03b26b70f",
+        "ec3fb674-fcdd-42b2-8f9a-ee9fa1865a65",
+        "905f89d9-3ea8-4c18-b051-e722443069e3",
+        "f913e443-3beb-400a-a487-8585832e95e3"
+      ],
+      "latency_ms": 2931,
+      "wall_clock_ms": 2948,
+      "prompt_tokens": 969,
+      "completion_tokens": 143,
+      "cost_inr": 0.0485,
+      "passed": true,
+      "checks": {
+        "did_not_abstain": true,
+        "must_reference": "1/1 matched: ['Project Falcon']"
+      }
+    },
+    {
+      "id": "q2",
+      "category": "find_and_polish",
+      "question": "Find the dictation I did in Google Docs about Project Comet's timeline and clean it up.",
+      "setup_turns": [],
+      "expects": {
+        "type": "answerable",
+        "must_reference": [
+          "Project Comet"
+        ],
+        "app_context": "Google Docs"
       },
       "response": "I don't have anything in your history that answers that \u2014 I don't want to guess.",
       "abstained": true,
       "tool": "find_and_polish",
       "params": {
-        "keywords": "Project Falcon",
+        "keywords": "Project Comet's timeline",
         "app": "Google Docs",
-        "start": null,
-        "end": null,
-        "target_app": "Slack"
+        "target_app": "Google Docs"
       },
       "tool_output": {
         "search": {
@@ -38,11 +123,11 @@
         }
       },
       "memories_used": [],
-      "latency_ms": 1137,
-      "wall_clock_ms": 1153,
-      "prompt_tokens": 782,
-      "completion_tokens": 73,
-      "cost_inr": 0.0353,
+      "latency_ms": 895,
+      "wall_clock_ms": 907,
+      "prompt_tokens": 651,
+      "completion_tokens": 63,
+      "cost_inr": 0.0296,
       "passed": false,
       "checks": {
         "did_not_abstain": false,
@@ -50,280 +135,190 @@
       }
     },
     {
-      "id": "h2",
-      "category": "find_and_polish_novel_direction",
-      "question": "Find the email I sent about the Project Comet rollout plan and clean it up as a Slack update.",
-      "setup_turns": [],
-      "expects": {
-        "type": "answerable",
-        "must_reference": [
-          "Project Comet"
-        ]
-      },
-      "response": "I don't have that in the user's history \u2014 I only found a dictation note about Ananya Rao sending the rollout plan, not the actual email itself.",
-      "abstained": false,
-      "tool": "find_and_polish",
-      "params": {
-        "keywords": "Project Comet rollout plan",
-        "app": "Outlook",
-        "target_app": "Slack"
-      },
-      "tool_output": {
-        "search": {
-          "found": true,
-          "results": [
-            {
-              "dictation_id": "45400b96-e86d-4622-8fa4-4c2a94c025fa",
-              "record_id": "mail-0353",
-              "app": "Outlook",
-              "timestamp": "2026-09-07T17:39:00.867454",
-              "text": "Follow-up email after the Northwind Traders call: Ananya Rao to send the Project Comet rollout plan by Friday.",
-              "score": 1.07,
-              "reason": "IDF-weighted match on terms ['comet', 'email', 'plan', 'project', 'rollout', 'up'] (score=1.07)"
-            }
-          ]
-        },
-        "polish": {
-          "polished_text": "* Follow-up email after the Northwind Traders call: Ananya Rao to send the Project Comet rollout plan by Friday.",
-          "preferences_applied": [
-            {
-              "memory_id": "ff634baa-eb4d-428f-b611-a64ab0ea630d",
-              "type": "preference",
-              "scope": "Slack::formatting_style",
-              "content": "format my Slack updates as bullet points",
-              "score": null,
-              "reason": "scope-matched (prefix 'Slack::'), no keyword ranking needed"
-            }
-          ],
-          "usage": {
-            "prompt_tokens": 87,
-            "completion_tokens": 27
-          }
-        }
-      },
-      "memories_used": [
-        "45400b96-e86d-4622-8fa4-4c2a94c025fa",
-        "ff634baa-eb4d-428f-b611-a64ab0ea630d"
-      ],
-      "latency_ms": 1712,
-      "wall_clock_ms": 1725,
-      "prompt_tokens": 1089,
-      "completion_tokens": 124,
-      "cost_inr": 0.0512,
-      "passed": true,
-      "checks": {
-        "did_not_abstain": true,
-        "must_reference": "1/1 matched: ['Project Comet']"
-      }
-    },
-    {
-      "id": "h3",
-      "category": "factual_recall_paraphrase",
-      "question": "What's Divya Nair's job title?",
+      "id": "q3",
+      "category": "factual_recall",
+      "question": "What does PRJ-FLC stand for?",
       "setup_turns": [],
       "expects": {
         "type": "answerable",
         "gold_answer_contains": [
-          "Growth Analyst"
+          "Project Falcon",
+          "onboarding"
         ]
       },
-      "response": "Divya Nair is the Growth Analyst at Loopwork.",
+      "response": "Project Falcon.",
       "abstained": false,
       "tool": "factual_recall",
       "params": {
-        "query": "Divya Nair's job title"
+        "query": "PRJ-FLC stand for"
       },
       "tool_output": {
         "recall_fact": {
           "found": true,
           "results": [
             {
-              "memory_id": "74f81809-6dda-4ba3-88e9-bcb1f41026bd",
-              "type": "factual",
-              "scope": "role:Divya Nair",
-              "content": "Divya Nair is the Growth Analyst at Loopwork.",
-              "score": 1.29,
-              "reason": "IDF-weighted match on terms ['divya', 'nair'] (score=1.29)"
+              "memory_id": "6807efad-6f74-4325-85fc-0d0ad5ed3df7",
+              "type": "episodic",
+              "scope": "project_falcon_timeline_decision",
+              "content": "Decided to push the Meridian Retail pilot for Project Falcon (PRJ-FLC) by one week to fix edge cases found by the Growth Pod.",
+              "score": 1.28,
+              "reason": "IDF-weighted match on terms ['flc', 'prj'] (score=1.28)"
             },
             {
-              "memory_id": "5c00a744-6258-4cba-91e7-a987b9e45beb",
+              "memory_id": "10b24114-1c5e-4d60-a3f6-abee5216e25e",
               "type": "episodic",
-              "scope": "project_falcon_timeline_divya_nair",
-              "content": "Discussed Project Falcon timeline with Divya Nair in a meeting.",
-              "score": 1.27,
-              "reason": "IDF-weighted match on terms ['divya', 'nair'] (score=1.27)"
+              "scope": "project_falcon_timeline",
+              "content": "Discussed Project Falcon (PRJ-FLC) timeline with Divya Nair and decided to push the Northwind Traders pilot by one week to fix edge cases found by the Growth Pod.",
+              "score": 1.21,
+              "reason": "IDF-weighted match on terms ['flc', 'prj'] (score=1.21)"
             },
             {
-              "memory_id": "003ca940-b85b-4eb1-acb7-8b5e6191f08f",
+              "memory_id": "f42804ed-f2b0-4d09-ba4d-bdbb7af276ca",
               "type": "episodic",
-              "scope": "platform_pod_unblock",
-              "content": "Divya Nair is helping unblock the Platform Pod sprint.",
-              "score": 1.27,
-              "reason": "IDF-weighted match on terms ['divya', 'nair'] (score=1.27)"
+              "scope": "project_falcon_timeline_meeting",
+              "content": "Discussed Project Falcon (PRJ-FLC) timeline with Ananya Rao; decided to push the Northwind Traders pilot by one week to fix edge cases found by the Growth Pod.",
+              "score": 1.21,
+              "reason": "IDF-weighted match on terms ['flc', 'prj'] (score=1.21)"
             }
           ]
         }
       },
       "memories_used": [
-        "74f81809-6dda-4ba3-88e9-bcb1f41026bd",
-        "5c00a744-6258-4cba-91e7-a987b9e45beb",
-        "003ca940-b85b-4eb1-acb7-8b5e6191f08f"
+        "6807efad-6f74-4325-85fc-0d0ad5ed3df7",
+        "10b24114-1c5e-4d60-a3f6-abee5216e25e",
+        "f42804ed-f2b0-4d09-ba4d-bdbb7af276ca"
       ],
-      "latency_ms": 685,
-      "wall_clock_ms": 699,
-      "prompt_tokens": 936,
-      "completion_tokens": 38,
-      "cost_inr": 0.0377,
+      "latency_ms": 949,
+      "wall_clock_ms": 966,
+      "prompt_tokens": 874,
+      "completion_tokens": 30,
+      "cost_inr": 0.0347,
       "passed": true,
       "checks": {
         "did_not_abstain": true,
-        "gold_answer_contains": "1/1 matched: ['Growth Analyst']"
+        "gold_answer_contains": "1/2 matched: ['Project Falcon']"
       }
     },
     {
-      "id": "h4",
-      "category": "factual_recall_paraphrase",
-      "question": "Tell me what PRJ-CMT refers to.",
+      "id": "q4",
+      "category": "factual_recall",
+      "question": "Who is the Engineering Lead I work with?",
       "setup_turns": [],
       "expects": {
         "type": "answerable",
         "gold_answer_contains": [
-          "Project Comet"
+          "Rahul Iyer"
         ]
       },
-      "response": "Project Comet (PRJ-CMT) is a project discussed in a meeting with Ananya Rao. It involves a pilot for Meridian Retail, which was pushed back by a week to fix edge cases found by the Growth Pod. It also includes a configurable dashboard component estimated by Divya Nair to take two sprints.",
+      "response": "Based on the evidence provided, Rahul Iyer is the Engineering Lead you work with at Loopwork.",
       "abstained": false,
       "tool": "factual_recall",
       "params": {
-        "query": "PRJ-CMT refers to"
+        "query": "Engineering Lead I work with"
       },
       "tool_output": {
         "recall_fact": {
           "found": true,
           "results": [
             {
-              "memory_id": "5d5ffcad-5ab5-4fce-a849-c9bcc5f12b8d",
-              "type": "episodic",
-              "scope": "project_comet_meridian_pilot_timeline",
-              "content": "Decided to push the Meridian Retail pilot for Project Comet (PRJ-CMT) by one week to fix edge cases found by the Growth Pod.",
-              "score": 1.46,
-              "reason": "IDF-weighted match on terms ['cmt', 'prj'] (score=1.46)"
-            },
-            {
-              "memory_id": "09669dcd-b03c-404e-8487-c1bc04f5c3d7",
+              "memory_id": "390f8156-9185-4b6a-9610-1b2539d0c41d",
               "type": "factual",
-              "scope": "project_comet",
-              "content": "Project Comet (PRJ-CMT) is a project discussed in a meeting with Ananya Rao.",
-              "score": 1.25,
-              "reason": "IDF-weighted match on terms ['cmt', 'prj'] (score=1.25)"
+              "scope": "role:Rahul Iyer",
+              "content": "Rahul Iyer is the Engineering Lead at Loopwork.",
+              "score": 1.62,
+              "reason": "IDF-weighted match on terms ['engineering', 'lead'] (score=1.62)"
             },
             {
-              "memory_id": "18d29bd1-b339-498c-8e00-e356e0e2ed0a",
+              "memory_id": "160eb748-800d-4edb-886d-ee369f3afa2c",
               "type": "episodic",
-              "scope": "project_cmt_divya_estimate_sprints",
-              "content": "Divya Nair estimates two sprints for the configurable dashboard component of Project Comet.",
-              "score": 0.99,
-              "reason": "IDF-weighted match on terms ['cmt'] (score=0.99)"
+              "scope": "project_comet_engineering_needs",
+              "content": "Growth Pod will need one more engineer to support Project Comet.",
+              "score": 1.18,
+              "reason": "IDF-weighted match on terms ['engineering'] (score=1.18)"
+            },
+            {
+              "memory_id": "47930ff1-e270-42cb-a9d7-83c726a94d9f",
+              "type": "factual",
+              "scope": "role:Ananya Rao",
+              "content": "Ananya Rao is the Design Lead at Loopwork.",
+              "score": 0.74,
+              "reason": "IDF-weighted match on terms ['lead'] (score=0.74)"
             }
           ]
         }
       },
       "memories_used": [
-        "5d5ffcad-5ab5-4fce-a849-c9bcc5f12b8d",
-        "09669dcd-b03c-404e-8487-c1bc04f5c3d7",
-        "18d29bd1-b339-498c-8e00-e356e0e2ed0a"
+        "390f8156-9185-4b6a-9610-1b2539d0c41d",
+        "160eb748-800d-4edb-886d-ee369f3afa2c",
+        "47930ff1-e270-42cb-a9d7-83c726a94d9f"
       ],
-      "latency_ms": 1321,
-      "wall_clock_ms": 1338,
-      "prompt_tokens": 967,
-      "completion_tokens": 90,
-      "cost_inr": 0.0436,
+      "latency_ms": 1140,
+      "wall_clock_ms": 1163,
+      "prompt_tokens": 798,
+      "completion_tokens": 44,
+      "cost_inr": 0.0332,
       "passed": true,
       "checks": {
         "did_not_abstain": true,
-        "gold_answer_contains": "1/1 matched: ['Project Comet']"
+        "gold_answer_contains": "1/1 matched: ['Rahul Iyer']"
       }
     },
     {
-      "id": "h5",
-      "category": "factual_recall_abstain_novel",
-      "question": "What's the WBS number for the marketing project?",
+      "id": "q5",
+      "category": "factual_recall_abstain",
+      "question": "What is the status of Project Nimbus?",
       "setup_turns": [],
       "expects": {
         "type": "abstain",
-        "reason": "no such entity ('marketing project', 'WBS number') ever mentioned in corpus"
+        "reason": "Project Nimbus never mentioned in corpus"
       },
-      "response": "I don't have anything in your history that answers that \u2014 I don't want to guess.",
-      "abstained": true,
+      "response": "I don't have that in the user's history.",
+      "abstained": false,
       "tool": "factual_recall",
       "params": {
-        "query": "WBS number for the marketing project"
+        "query": "Project Nimbus"
       },
       "tool_output": {
         "recall_fact": {
-          "found": false,
-          "results": []
-        }
-      },
-      "memories_used": [],
-      "latency_ms": 296,
-      "wall_clock_ms": 307,
-      "prompt_tokens": 774,
-      "completion_tokens": 25,
-      "cost_inr": 0.0306,
-      "passed": true,
-      "checks": {
-        "abstained_correctly": true,
-        "no_memories_cited": true
-      }
-    },
-    {
-      "id": "h6",
-      "category": "preference_query_untaught_app",
-      "question": "How should my Notes be formatted right now?",
-      "setup_turns": [],
-      "expects": {
-        "type": "abstain",
-        "reason": "no preference for Notes has ever been taught in the corpus"
-      },
-      "response": "Your Notes should be formatted as short bullet reminders, not full sentences.",
-      "abstained": false,
-      "tool": "preference_query",
-      "params": {
-        "app_scope": "Notes"
-      },
-      "tool_output": {
-        "recall_preference": {
           "found": true,
           "results": [
             {
-              "memory_id": "49b3e3b5-c389-4689-873d-ed88934ca1cc",
-              "type": "preference",
-              "scope": "Notes::automatic_memory",
-              "content": "Automatically remember facts, decisions, and reminders I mention without me having to explicitly ask you to save them.",
-              "score": null,
-              "reason": "scope-matched (prefix 'Notes::'), no keyword ranking needed"
+              "memory_id": "6c7a470f-9b36-442f-bb7a-4ae278df04d1",
+              "type": "factual",
+              "scope": "project_falcon_client",
+              "content": "Northwind Traders is the client for Project Falcon.",
+              "score": 0.1,
+              "reason": "IDF-weighted match on terms ['project'] (score=0.1)"
             },
             {
-              "memory_id": "6fad8bde-84c5-41f6-8ce1-600cd5e69790",
-              "type": "preference",
-              "scope": "Notes::formatting_style",
-              "content": "Format Notes as short bullet reminders, not full sentences",
-              "score": null,
-              "reason": "scope-matched (prefix 'Notes::'), no keyword ranking needed"
+              "memory_id": "e8b14db8-5154-4b07-870a-64c90cb1b0ac",
+              "type": "factual",
+              "scope": "project_falcon_rollout",
+              "content": "Project Falcon is the rollout plan for Northwind Traders.",
+              "score": 0.09,
+              "reason": "IDF-weighted match on terms ['project'] (score=0.09)"
+            },
+            {
+              "memory_id": "b106b81c-d277-4a29-a62c-f012abfb49e5",
+              "type": "factual",
+              "scope": "team:Platform Pod",
+              "content": "Platform Pod owns the rollout for Project Comet.",
+              "score": 0.09,
+              "reason": "IDF-weighted match on terms ['project'] (score=0.09)"
             }
           ]
         }
       },
       "memories_used": [
-        "49b3e3b5-c389-4689-873d-ed88934ca1cc",
-        "6fad8bde-84c5-41f6-8ce1-600cd5e69790"
+        "6c7a470f-9b36-442f-bb7a-4ae278df04d1",
+        "e8b14db8-5154-4b07-870a-64c90cb1b0ac",
+        "b106b81c-d277-4a29-a62c-f012abfb49e5"
       ],
-      "latency_ms": 593,
-      "wall_clock_ms": 610,
-      "prompt_tokens": 925,
-      "completion_tokens": 37,
-      "cost_inr": 0.0372,
+      "latency_ms": 1100,
+      "wall_clock_ms": 1117,
+      "prompt_tokens": 793,
+      "completion_tokens": 47,
+      "cost_inr": 0.0333,
       "passed": false,
       "checks": {
         "abstained_correctly": false,
@@ -331,80 +326,129 @@
       }
     },
     {
-      "id": "h7",
-      "category": "preference_teach_then_query",
-      "question": "How should my Notes be formatted right now?",
-      "setup_turns": [
-        {
-          "turn": "Hey Kivi, from now on format my Notes as short bullet reminders, not full sentences.",
-          "response": "Got it! I\u2019ll format your Notes as short bullet reminders, not full sentences."
+      "id": "q6",
+      "category": "factual_recall_abstain",
+      "question": "What's Karan Bose's role on my team?",
+      "setup_turns": [],
+      "expects": {
+        "type": "abstain",
+        "reason": "Karan Bose never mentioned in corpus"
+      },
+      "response": "Karan is scheduled to present the Nexus project presentation to Prof Ashwin on September 13, 2026. I don't have his specific role on your team in the provided history.",
+      "abstained": false,
+      "tool": "factual_recall",
+      "params": {
+        "query": "Karan Bose's role on my team"
+      },
+      "tool_output": {
+        "recall_fact": {
+          "found": true,
+          "results": [
+            {
+              "memory_id": "99983c7e-bb6b-4c92-8f37-5266f7413656",
+              "type": "factual",
+              "scope": "role:Vikram Shah",
+              "content": "Vikram Shah is the Backend Engineer on the Loopwork team.",
+              "score": 1.15,
+              "reason": "IDF-weighted match on terms ['role', 'team'] (score=1.15)"
+            },
+            {
+              "memory_id": "87f9dbd2-cfca-4a2d-9872-bd97e66e7a21",
+              "type": "episodic",
+              "scope": "karan_nexus_presentation",
+              "content": "Karan is scheduled to present the Nexus project presentation to Prof Ashwin on September 13, 2026.",
+              "score": 1.1,
+              "reason": "IDF-weighted match on terms ['karan'] (score=1.1)"
+            },
+            {
+              "memory_id": "faf8d43e-2521-445e-a907-48d65abcdf71",
+              "type": "episodic",
+              "scope": "priya_menon_wrap_up",
+              "content": "Priya Menon sent a wrap-up message to the team on 2026-09-12 at 16:02.",
+              "score": 0.96,
+              "reason": "IDF-weighted match on terms ['team'] (score=0.96)"
+            }
+          ]
         }
+      },
+      "memories_used": [
+        "99983c7e-bb6b-4c92-8f37-5266f7413656",
+        "87f9dbd2-cfca-4a2d-9872-bd97e66e7a21",
+        "faf8d43e-2521-445e-a907-48d65abcdf71"
       ],
+      "latency_ms": 1212,
+      "wall_clock_ms": 1231,
+      "prompt_tokens": 838,
+      "completion_tokens": 70,
+      "cost_inr": 0.0371,
+      "passed": false,
+      "checks": {
+        "abstained_correctly": false,
+        "no_memories_cited": false
+      }
+    },
+    {
+      "id": "q7",
+      "category": "preference",
+      "question": "How should my Slack updates be formatted right now?",
+      "setup_turns": [],
       "expects": {
         "type": "answerable",
         "gold_answer_contains": [
-          "bullet"
-        ]
+          "bullet points"
+        ],
+        "note": "must reflect the LATER override, not the earlier paragraph preference"
       },
-      "response": "Your Notes should be formatted as short bullet reminders, not full sentences.",
+      "response": "Your Slack updates should be formatted as bullet points.",
       "abstained": false,
       "tool": "preference_query",
       "params": {
-        "app_scope": "Notes"
+        "app_scope": "Slack"
       },
       "tool_output": {
         "recall_preference": {
           "found": true,
           "results": [
             {
-              "memory_id": "af5c7a72-8545-4bc4-b852-9e9477467aef",
+              "memory_id": "4b5dd3ae-3c66-43ec-9860-f5692dcb7b08",
               "type": "preference",
-              "scope": "Notes::formatting_style",
-              "content": "format Notes as short bullet reminders, not full sentences",
+              "scope": "Slack::formatting_style",
+              "content": "Format updates as bullet points.",
               "score": null,
-              "reason": "scope-matched (prefix 'Notes::'), no keyword ranking needed"
-            },
-            {
-              "memory_id": "49b3e3b5-c389-4689-873d-ed88934ca1cc",
-              "type": "preference",
-              "scope": "Notes::automatic_memory",
-              "content": "Automatically remember facts, decisions, and reminders I mention without me having to explicitly ask you to save them.",
-              "score": null,
-              "reason": "scope-matched (prefix 'Notes::'), no keyword ranking needed"
+              "reason": "scope-matched (prefix 'Slack::'), no keyword ranking needed"
             }
           ]
         }
       },
       "memories_used": [
-        "af5c7a72-8545-4bc4-b852-9e9477467aef",
-        "49b3e3b5-c389-4689-873d-ed88934ca1cc"
+        "4b5dd3ae-3c66-43ec-9860-f5692dcb7b08"
       ],
-      "latency_ms": 598,
-      "wall_clock_ms": 616,
-      "prompt_tokens": 925,
-      "completion_tokens": 37,
-      "cost_inr": 0.0372,
+      "latency_ms": 799,
+      "wall_clock_ms": 819,
+      "prompt_tokens": 769,
+      "completion_tokens": 33,
+      "cost_inr": 0.0312,
       "passed": true,
       "checks": {
         "did_not_abstain": true,
-        "gold_answer_contains": "1/1 matched: ['bullet']"
+        "gold_answer_contains": "1/1 matched: ['bullet points']"
       }
     },
     {
-      "id": "h8",
-      "category": "period_recap_paraphrase",
-      "question": "Give me a rundown of what I've been doing this past week.",
+      "id": "q8",
+      "category": "period_recap",
+      "question": "What did I work on in the last week?",
       "setup_turns": [],
       "expects": {
         "type": "answerable",
         "must_cite_sources": true
       },
-      "response": "This past week, you\u2019ve been deep in project work. You completed the Project Comet spec review and finished a wireframe review with Ananya Rao, keeping things on track for a Meridian Retail demo. You also met with Divya Nair to discuss the Project Falcon timeline, which led to pushing the Northwind Traders pilot by one week to fix edge cases. \n\nYou\u2019ve been coordinating a lot with Rahul Iyer, who is helping unblock the Platform Pod sprint and is expected to send the Project Falcon rollout plan by Friday. There are also a few budget questions to follow up on with Rahul or Ananya Rao before Friday. On the personal side, your brother Karan is scheduled to present the Nexus project to Prof Ashwin tomorrow, September 13.",
+      "response": "Based on your records, in the last week you worked on several projects, including Project Falcon, Project Comet, and Project Nexus. You completed spec reviews for Project Comet, discussed timelines for Project Falcon with Divya Nair and Ananya Rao, and pushed the Northwind Traders and Meridian Retail pilots back by one week to fix edge cases. You also wrapped up a wireframe review for Project Comet, scheduled syncs, and followed up on API contracts. Additionally, you sent wrap-up messages to the team and noted that your brother Karan would present the Nexus project to Prof Ashwin.",
       "abstained": false,
       "tool": "period_recap",
       "params": {
-        "start": "2026-09-06T18:43:17.512278+00:00",
-        "end": "2026-09-13T18:43:17.512278+00:00",
+        "start": "2026-09-06T06:39:25.048800+00:00",
+        "end": "2026-09-13T06:39:25.048800+00:00",
         "keywords": null,
         "app": null
       },
@@ -1325,11 +1369,11 @@
         "00d66f21-1086-487f-abc7-74f3e96d4ead",
         "c9b889c2-d7c7-4545-bf1b-289f653ac456"
       ],
-      "latency_ms": 1827,
-      "wall_clock_ms": 1844,
-      "prompt_tokens": 4423,
-      "completion_tokens": 257,
-      "cost_inr": 0.1854,
+      "latency_ms": 3218,
+      "wall_clock_ms": 3238,
+      "prompt_tokens": 4282,
+      "completion_tokens": 216,
+      "cost_inr": 0.1765,
       "passed": true,
       "checks": {
         "did_not_abstain": true,
@@ -1337,64 +1381,98 @@
       }
     },
     {
-      "id": "h9",
-      "category": "decay_reset_paraphrase",
-      "question": "How much budget did I end up asking for on Falcon?",
+      "id": "q9",
+      "category": "decay",
+      "question": "What was that parking validation code I noted a while back?",
+      "setup_turns": [],
+      "expects": {
+        "type": "abstain",
+        "reason": "episodic note is >30 days old and never re-referenced, should have decayed"
+      },
+      "response": "I don't have anything in your history that answers that \u2014 I don't want to guess.",
+      "abstained": true,
+      "tool": "factual_recall",
+      "params": {
+        "query": "parking validation code"
+      },
+      "tool_output": {
+        "recall_fact": {
+          "found": false,
+          "results": []
+        }
+      },
+      "memories_used": [],
+      "latency_ms": 536,
+      "wall_clock_ms": 552,
+      "prompt_tokens": 643,
+      "completion_tokens": 26,
+      "cost_inr": 0.0259,
+      "passed": true,
+      "checks": {
+        "abstained_correctly": true,
+        "no_memories_cited": true
+      }
+    },
+    {
+      "id": "q10",
+      "category": "decay_reset",
+      "question": "What was the Project Falcon budget ask I noted?",
       "setup_turns": [],
       "expects": {
         "type": "answerable",
         "gold_answer_contains": [
           "40,000",
           "40000"
-        ]
+        ],
+        "note": "originally noted 38 days ago but re-referenced 10 days ago, so decay clock should have reset"
       },
-      "response": "You ended up asking for a $40,000 budget for Project Falcon.",
+      "response": "The budget ask for Project Falcon was $40,000.",
       "abstained": false,
       "tool": "factual_recall",
       "params": {
-        "query": "budget asked for on Falcon"
+        "query": "Project Falcon budget ask"
       },
       "tool_output": {
         "recall_fact": {
           "found": true,
           "results": [
             {
-              "memory_id": "4bcc9d38-0dd8-4ceb-82ef-323fb31d04b2",
-              "type": "episodic",
-              "scope": "project_falcon_sync_reschedule",
-              "content": "The sync about Project Falcon is moved to Thursday at 3 PM, with Ananya Rao asked to loop in the Growth Pod before then.",
-              "score": 1.08,
-              "reason": "IDF-weighted match on terms ['asked', 'falcon'] (score=1.08)"
-            },
-            {
               "memory_id": "c86933e6-6113-46a2-9806-c392fcabae8e",
               "type": "episodic",
               "scope": "project_falcon_budget_approval",
               "content": "Finance approved the 40,000 dollar budget ask for Project Falcon.",
-              "score": 1.0,
-              "reason": "IDF-weighted match on terms ['budget', 'falcon'] (score=1.0)"
+              "score": 1.82,
+              "reason": "IDF-weighted match on terms ['ask', 'budget', 'falcon', 'project'] (score=1.82)"
             },
             {
               "memory_id": "ed92555b-5fcc-4a2e-877b-c6876ddcafcd",
               "type": "episodic",
               "scope": "project_falcon_budget_ask",
               "content": "Need to ask Divya Nair about the Project Falcon budget before Friday.",
-              "score": 1.0,
-              "reason": "IDF-weighted match on terms ['budget', 'falcon'] (score=1.0)"
+              "score": 1.82,
+              "reason": "IDF-weighted match on terms ['ask', 'budget', 'falcon', 'project'] (score=1.82)"
+            },
+            {
+              "memory_id": "fde14043-a934-4796-bfff-e1743fa1c1bb",
+              "type": "episodic",
+              "scope": "ask_rahul_iyer_budget",
+              "content": "A reminder to ask Rahul Iyer about the Project Falcon budget before Friday.",
+              "score": 1.82,
+              "reason": "IDF-weighted match on terms ['ask', 'budget', 'falcon', 'project'] (score=1.82)"
             }
           ]
         }
       },
       "memories_used": [
-        "4bcc9d38-0dd8-4ceb-82ef-323fb31d04b2",
         "c86933e6-6113-46a2-9806-c392fcabae8e",
-        "ed92555b-5fcc-4a2e-877b-c6876ddcafcd"
+        "ed92555b-5fcc-4a2e-877b-c6876ddcafcd",
+        "fde14043-a934-4796-bfff-e1743fa1c1bb"
       ],
-      "latency_ms": 603,
-      "wall_clock_ms": 616,
-      "prompt_tokens": 961,
-      "completion_tokens": 43,
-      "cost_inr": 0.0391,
+      "latency_ms": 898,
+      "wall_clock_ms": 913,
+      "prompt_tokens": 812,
+      "completion_tokens": 39,
+      "cost_inr": 0.0333,
       "passed": true,
       "checks": {
         "did_not_abstain": true,
