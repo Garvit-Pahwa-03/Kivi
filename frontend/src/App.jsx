@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API = import.meta.env.API_URL;
+const API = import.meta.env.VITE_API_URL;
 
 const COLORS = {
   bg: '#0a0a0a', panel: '#131313', panelBorder: '#232323', card: '#161f16',
