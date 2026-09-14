@@ -19,11 +19,12 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    # Columns already exist on disk from a prior partial run that crashed before
-    # Alembic recorded success - only the unique constraint is still missing.
-    # SQLite requires batch mode to add a constraint to an existing table.
-    with op.batch_alter_table('users', schema=None) as batch_op:
-        batch_op.create_unique_constraint('uq_users_email', ['email'])
+    # 1. Add the missing column first
+    op.add_column('users', sa.Column('email', sa.String(), nullable=True))
+    op.add_column('users', sa.Column('hashed_password', sa.String(), nullable=True))
+
+    # 2. Add the unique constraint AFTER the column exists
+    op.create_unique_constraint('uq_users_email', 'users', ['email'])
 
 
 def downgrade() -> None:
